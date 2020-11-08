@@ -31,4 +31,7 @@
 *.out
 *.app
 
-FitSDKRelease_21.30.00
+lib
+Builds
+JuceLibraryCode
+.DS_Store
