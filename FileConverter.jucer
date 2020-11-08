@@ -9,13 +9,1358 @@
       <FILE id="nWftYK" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
     </GROUP>
+    <GROUP id="{275C3433-1C41-9B93-C936-9FFE012EE302}" name="fitsdk">
+      <GROUP id="{06E6BC68-B07E-90DA-A991-A49CC77EC70E}" name="MacStaticLib">
+        <GROUP id="{7D04E426-8BAC-6E68-3056-C9EF4C8377F2}" name="build">
+          <GROUP id="{3E09B35E-A45A-BFAE-2895-B03BDFA30A03}" name="Release">
+            <GROUP id="{366F140F-09A6-479F-4FEE-ABDB6F5BF6E4}" name="usr">
+              <GROUP id="{1742A444-BD4C-45F2-756E-1F3C8A20A780}" name="local">
+                <GROUP id="{978530D9-02CE-A43D-B4CF-DBA42BB1F5E3}" name="include">
+                  <FILE id="fOhXJC" name="fit.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit.hpp"/>
+                  <FILE id="VH2i2c" name="fit_accelerometer_data_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accelerometer_data_mesg.hpp"/>
+                  <FILE id="FJZc9M" name="fit_accelerometer_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accelerometer_data_mesg_listener.hpp"/>
+                  <FILE id="pgG6aV" name="fit_accumulated_field.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accumulated_field.hpp"/>
+                  <FILE id="NpQYOK" name="fit_accumulator.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accumulator.hpp"/>
+                  <FILE id="DS8cUc" name="fit_activity_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_activity_mesg.hpp"/>
+                  <FILE id="xYNYBv" name="fit_activity_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_activity_mesg_listener.hpp"/>
+                  <FILE id="ltAaBY" name="fit_ant_channel_id_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_channel_id_mesg.hpp"/>
+                  <FILE id="ztgtQS" name="fit_ant_channel_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_channel_id_mesg_listener.hpp"/>
+                  <FILE id="lk0VpP" name="fit_ant_rx_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_rx_mesg.hpp"/>
+                  <FILE id="PB3xDI" name="fit_ant_rx_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_rx_mesg_listener.hpp"/>
+                  <FILE id="HOqhNk" name="fit_ant_tx_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_tx_mesg.hpp"/>
+                  <FILE id="xH2X2J" name="fit_ant_tx_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_tx_mesg_listener.hpp"/>
+                  <FILE id="KxZToZ" name="fit_aviation_attitude_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_aviation_attitude_mesg.hpp"/>
+                  <FILE id="J03Ozi" name="fit_aviation_attitude_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_aviation_attitude_mesg_listener.hpp"/>
+                  <FILE id="zItGFt" name="fit_barometer_data_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_barometer_data_mesg.hpp"/>
+                  <FILE id="FNtKS1" name="fit_barometer_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_barometer_data_mesg_listener.hpp"/>
+                  <FILE id="rkNd7r" name="fit_bike_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_bike_profile_mesg.hpp"/>
+                  <FILE id="Wr0tii" name="fit_bike_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_bike_profile_mesg_listener.hpp"/>
+                  <FILE id="Z6xDsl" name="fit_blood_pressure_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_blood_pressure_mesg.hpp"/>
+                  <FILE id="rSqDQp" name="fit_blood_pressure_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_blood_pressure_mesg_listener.hpp"/>
+                  <FILE id="H7YfwI" name="fit_buffer_encode.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffer_encode.hpp"/>
+                  <FILE id="nKYWq9" name="fit_buffered_mesg_broadcaster.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_mesg_broadcaster.hpp"/>
+                  <FILE id="nT3HR8" name="fit_buffered_record_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg.hpp"/>
+                  <FILE id="CtUVQk" name="fit_buffered_record_mesg_broadcaster.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg_broadcaster.hpp"/>
+                  <FILE id="EkPxWK" name="fit_buffered_record_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg_listener.hpp"/>
+                  <FILE id="yI5VgF" name="fit_cadence_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_cadence_zone_mesg.hpp"/>
+                  <FILE id="vWG48B" name="fit_cadence_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_cadence_zone_mesg_listener.hpp"/>
+                  <FILE id="uMWPxu" name="fit_camera_event_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_camera_event_mesg.hpp"/>
+                  <FILE id="lJ5B5x" name="fit_camera_event_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_camera_event_mesg_listener.hpp"/>
+                  <FILE id="sMn2PT" name="fit_capabilities_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_capabilities_mesg.hpp"/>
+                  <FILE id="qtAIlE" name="fit_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_capabilities_mesg_listener.hpp"/>
+                  <FILE id="EWDOMa" name="fit_climb_pro_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_climb_pro_mesg.hpp"/>
+                  <FILE id="qZQt00" name="fit_climb_pro_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_climb_pro_mesg_listener.hpp"/>
+                  <FILE id="DGDEIc" name="fit_config.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_config.hpp"/>
+                  <FILE id="LbjV9z" name="fit_connectivity_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_connectivity_mesg.hpp"/>
+                  <FILE id="r5AEKt" name="fit_connectivity_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_connectivity_mesg_listener.hpp"/>
+                  <FILE id="j5jgF7" name="fit_course_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_mesg.hpp"/>
+                  <FILE id="JsO2Ol" name="fit_course_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_mesg_listener.hpp"/>
+                  <FILE id="x6UW5r" name="fit_course_point_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_point_mesg.hpp"/>
+                  <FILE id="NcH6tL" name="fit_course_point_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_point_mesg_listener.hpp"/>
+                  <FILE id="uKIdNy" name="fit_crc.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_crc.hpp"/>
+                  <FILE id="b2tLUi" name="fit_date_time.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_date_time.hpp"/>
+                  <FILE id="m1O8Yk" name="fit_decode.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_decode.hpp"/>
+                  <FILE id="Oe7blL" name="fit_developer_data_id_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_data_id_mesg.hpp"/>
+                  <FILE id="qHEQby" name="fit_developer_data_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_data_id_mesg_listener.hpp"/>
+                  <FILE id="ssO4c7" name="fit_developer_field.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field.hpp"/>
+                  <FILE id="T80O7q" name="fit_developer_field_definition.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_definition.hpp"/>
+                  <FILE id="XHaUNg" name="fit_developer_field_description.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_description.hpp"/>
+                  <FILE id="SF3hQU" name="fit_developer_field_description_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_description_listener.hpp"/>
+                  <FILE id="Vkujck" name="fit_device_info_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_info_mesg.hpp"/>
+                  <FILE id="jdRRhB" name="fit_device_info_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_info_mesg_listener.hpp"/>
+                  <FILE id="E6Wukq" name="fit_device_settings_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_settings_mesg.hpp"/>
+                  <FILE id="ADZIvk" name="fit_device_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_settings_mesg_listener.hpp"/>
+                  <FILE id="t7hMrd" name="fit_dive_alarm_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_alarm_mesg.hpp"/>
+                  <FILE id="GvVUbq" name="fit_dive_alarm_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_alarm_mesg_listener.hpp"/>
+                  <FILE id="LyaK8h" name="fit_dive_gas_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_gas_mesg.hpp"/>
+                  <FILE id="ghosCu" name="fit_dive_gas_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_gas_mesg_listener.hpp"/>
+                  <FILE id="kxHF6p" name="fit_dive_settings_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_settings_mesg.hpp"/>
+                  <FILE id="d7fPKA" name="fit_dive_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_settings_mesg_listener.hpp"/>
+                  <FILE id="xSL0LA" name="fit_dive_summary_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_summary_mesg.hpp"/>
+                  <FILE id="u5KEKX" name="fit_dive_summary_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_summary_mesg_listener.hpp"/>
+                  <FILE id="YmEi4x" name="fit_encode.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_encode.hpp"/>
+                  <FILE id="iRSiKl" name="fit_event_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_event_mesg.hpp"/>
+                  <FILE id="jnYegF" name="fit_event_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_event_mesg_listener.hpp"/>
+                  <FILE id="X1zm24" name="fit_exd_data_concept_configuration_mesg.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_concept_configuration_mesg.hpp"/>
+                  <FILE id="v2N89Y" name="fit_exd_data_concept_configuration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_concept_configuration_mesg_listener.hpp"/>
+                  <FILE id="cVZZuf" name="fit_exd_data_field_configuration_mesg.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_field_configuration_mesg.hpp"/>
+                  <FILE id="zksF76" name="fit_exd_data_field_configuration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_field_configuration_mesg_listener.hpp"/>
+                  <FILE id="MI7V7d" name="fit_exd_screen_configuration_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_screen_configuration_mesg.hpp"/>
+                  <FILE id="Pp6QIJ" name="fit_exd_screen_configuration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_screen_configuration_mesg_listener.hpp"/>
+                  <FILE id="jM7KAm" name="fit_exercise_title_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exercise_title_mesg.hpp"/>
+                  <FILE id="YWMX6h" name="fit_exercise_title_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exercise_title_mesg_listener.hpp"/>
+                  <FILE id="jKjh7B" name="fit_factory.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_factory.hpp"/>
+                  <FILE id="aiYN2u" name="fit_field.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field.hpp"/>
+                  <FILE id="CpxNsF" name="fit_field_base.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_base.hpp"/>
+                  <FILE id="jmTods" name="fit_field_capabilities_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_capabilities_mesg.hpp"/>
+                  <FILE id="Pkz0pO" name="fit_field_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_capabilities_mesg_listener.hpp"/>
+                  <FILE id="QeUqze" name="fit_field_definition.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_definition.hpp"/>
+                  <FILE id="EF8Xv7" name="fit_field_description_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_description_mesg.hpp"/>
+                  <FILE id="DxQNhs" name="fit_field_description_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_description_mesg_listener.hpp"/>
+                  <FILE id="iYbpgn" name="fit_file_capabilities_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_capabilities_mesg.hpp"/>
+                  <FILE id="d0F9Ws" name="fit_file_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_capabilities_mesg_listener.hpp"/>
+                  <FILE id="MBkJ3V" name="fit_file_creator_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_creator_mesg.hpp"/>
+                  <FILE id="erCjk9" name="fit_file_creator_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_creator_mesg_listener.hpp"/>
+                  <FILE id="nYdB94" name="fit_file_id_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_id_mesg.hpp"/>
+                  <FILE id="Uztnnf" name="fit_file_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_id_mesg_listener.hpp"/>
+                  <FILE id="x41uR0" name="fit_goal_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_goal_mesg.hpp"/>
+                  <FILE id="rdAMSA" name="fit_goal_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_goal_mesg_listener.hpp"/>
+                  <FILE id="oI0qLP" name="fit_gps_metadata_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gps_metadata_mesg.hpp"/>
+                  <FILE id="QntlZ4" name="fit_gps_metadata_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gps_metadata_mesg_listener.hpp"/>
+                  <FILE id="rWr4Jk" name="fit_gyroscope_data_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gyroscope_data_mesg.hpp"/>
+                  <FILE id="QXyLUA" name="fit_gyroscope_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gyroscope_data_mesg_listener.hpp"/>
+                  <FILE id="U0rs0q" name="fit_hr_mesg.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_mesg.hpp"/>
+                  <FILE id="oAnDHj" name="fit_hr_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_mesg_listener.hpp"/>
+                  <FILE id="VAiT6v" name="fit_hr_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_zone_mesg.hpp"/>
+                  <FILE id="I38Onk" name="fit_hr_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_zone_mesg_listener.hpp"/>
+                  <FILE id="OjUzIu" name="fit_hrm_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrm_profile_mesg.hpp"/>
+                  <FILE id="dyTnqp" name="fit_hrm_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrm_profile_mesg_listener.hpp"/>
+                  <FILE id="xGngdl" name="fit_hrv_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrv_mesg.hpp"/>
+                  <FILE id="haMOLl" name="fit_hrv_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrv_mesg_listener.hpp"/>
+                  <FILE id="tlvWlv" name="fit_jump_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_jump_mesg.hpp"/>
+                  <FILE id="XlOzEe" name="fit_jump_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_jump_mesg_listener.hpp"/>
+                  <FILE id="cBEE1e" name="fit_lap_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_lap_mesg.hpp"/>
+                  <FILE id="PXRK4k" name="fit_lap_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_lap_mesg_listener.hpp"/>
+                  <FILE id="QIEzc5" name="fit_length_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_length_mesg.hpp"/>
+                  <FILE id="YjDUkL" name="fit_length_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_length_mesg_listener.hpp"/>
+                  <FILE id="LQPwNP" name="fit_magnetometer_data_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_magnetometer_data_mesg.hpp"/>
+                  <FILE id="Rliz8e" name="fit_magnetometer_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_magnetometer_data_mesg_listener.hpp"/>
+                  <FILE id="ctb4Cq" name="fit_memo_glob_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_memo_glob_mesg.hpp"/>
+                  <FILE id="nP2Q8e" name="fit_memo_glob_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_memo_glob_mesg_listener.hpp"/>
+                  <FILE id="w2qjGj" name="fit_mesg.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg.hpp"/>
+                  <FILE id="pddkvh" name="fit_mesg_broadcast_plugin.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_broadcast_plugin.hpp"/>
+                  <FILE id="X5fNLT" name="fit_mesg_broadcaster.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_broadcaster.hpp"/>
+                  <FILE id="t5pa2Z" name="fit_mesg_capabilities_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_capabilities_mesg.hpp"/>
+                  <FILE id="TwZWAS" name="fit_mesg_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_capabilities_mesg_listener.hpp"/>
+                  <FILE id="TJ6hjp" name="fit_mesg_definition.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_definition.hpp"/>
+                  <FILE id="Tk4VRg" name="fit_mesg_definition_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_definition_listener.hpp"/>
+                  <FILE id="LvXFpB" name="fit_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_listener.hpp"/>
+                  <FILE id="fRVNVn" name="fit_mesg_with_event.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event.hpp"/>
+                  <FILE id="q70Un1" name="fit_mesg_with_event_broadcaster.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event_broadcaster.hpp"/>
+                  <FILE id="dkrr3F" name="fit_mesg_with_event_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event_listener.hpp"/>
+                  <FILE id="c81mBE" name="fit_met_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_met_zone_mesg.hpp"/>
+                  <FILE id="nPBgKr" name="fit_met_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_met_zone_mesg_listener.hpp"/>
+                  <FILE id="SEYTag" name="fit_monitoring_info_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_info_mesg.hpp"/>
+                  <FILE id="ULmIV5" name="fit_monitoring_info_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_info_mesg_listener.hpp"/>
+                  <FILE id="b1fZKh" name="fit_monitoring_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_mesg.hpp"/>
+                  <FILE id="jHYzAS" name="fit_monitoring_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_mesg_listener.hpp"/>
+                  <FILE id="QJFpLr" name="fit_nmea_sentence_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_nmea_sentence_mesg.hpp"/>
+                  <FILE id="Mqmxw2" name="fit_nmea_sentence_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_nmea_sentence_mesg_listener.hpp"/>
+                  <FILE id="LEftJt" name="fit_obdii_data_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_obdii_data_mesg.hpp"/>
+                  <FILE id="r5Gi8p" name="fit_obdii_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_obdii_data_mesg_listener.hpp"/>
+                  <FILE id="XmqvG1" name="fit_ohr_settings_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ohr_settings_mesg.hpp"/>
+                  <FILE id="SUlCGh" name="fit_ohr_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ohr_settings_mesg_listener.hpp"/>
+                  <FILE id="u9gI9R" name="fit_one_d_sensor_calibration_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_one_d_sensor_calibration_mesg.hpp"/>
+                  <FILE id="MFhchF" name="fit_one_d_sensor_calibration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_one_d_sensor_calibration_mesg_listener.hpp"/>
+                  <FILE id="QojSJV" name="fit_pad_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_pad_mesg.hpp"/>
+                  <FILE id="Iad4N4" name="fit_pad_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_pad_mesg_listener.hpp"/>
+                  <FILE id="dpmO6b" name="fit_power_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_power_zone_mesg.hpp"/>
+                  <FILE id="dbdEc9" name="fit_power_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_power_zone_mesg_listener.hpp"/>
+                  <FILE id="J5Qa6R" name="fit_profile.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_profile.hpp"/>
+                  <FILE id="khoD4U" name="fit_protocol_validator.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_protocol_validator.hpp"/>
+                  <FILE id="n42zLD" name="fit_record_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_record_mesg.hpp"/>
+                  <FILE id="uBwmb4" name="fit_record_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_record_mesg_listener.hpp"/>
+                  <FILE id="DhPkHp" name="fit_runtime_exception.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_runtime_exception.hpp"/>
+                  <FILE id="xOt69e" name="fit_schedule_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_schedule_mesg.hpp"/>
+                  <FILE id="kXnuPo" name="fit_schedule_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_schedule_mesg_listener.hpp"/>
+                  <FILE id="Gzu9nx" name="fit_sdm_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sdm_profile_mesg.hpp"/>
+                  <FILE id="mNdc4m" name="fit_sdm_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sdm_profile_mesg_listener.hpp"/>
+                  <FILE id="NluD70" name="fit_segment_file_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_file_mesg.hpp"/>
+                  <FILE id="ZVTVnL" name="fit_segment_file_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_file_mesg_listener.hpp"/>
+                  <FILE id="GjB8iJ" name="fit_segment_id_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_id_mesg.hpp"/>
+                  <FILE id="vHUpPy" name="fit_segment_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_id_mesg_listener.hpp"/>
+                  <FILE id="F79qJQ" name="fit_segment_lap_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_lap_mesg.hpp"/>
+                  <FILE id="znHtOm" name="fit_segment_lap_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_lap_mesg_listener.hpp"/>
+                  <FILE id="IxXLMA" name="fit_segment_leaderboard_entry_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_leaderboard_entry_mesg.hpp"/>
+                  <FILE id="vBz6Gr" name="fit_segment_leaderboard_entry_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_leaderboard_entry_mesg_listener.hpp"/>
+                  <FILE id="ySHUWu" name="fit_segment_point_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_point_mesg.hpp"/>
+                  <FILE id="U2hAGh" name="fit_segment_point_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_point_mesg_listener.hpp"/>
+                  <FILE id="vGIA8g" name="fit_session_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_session_mesg.hpp"/>
+                  <FILE id="TUvzUH" name="fit_session_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_session_mesg_listener.hpp"/>
+                  <FILE id="NFPN4l" name="fit_set_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_set_mesg.hpp"/>
+                  <FILE id="YeqcPW" name="fit_set_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_set_mesg_listener.hpp"/>
+                  <FILE id="aekBs5" name="fit_slave_device_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_slave_device_mesg.hpp"/>
+                  <FILE id="zLN6eY" name="fit_slave_device_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_slave_device_mesg_listener.hpp"/>
+                  <FILE id="AQHIMP" name="fit_software_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_software_mesg.hpp"/>
+                  <FILE id="VzvetI" name="fit_software_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_software_mesg_listener.hpp"/>
+                  <FILE id="van7RE" name="fit_speed_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_speed_zone_mesg.hpp"/>
+                  <FILE id="pDxgmC" name="fit_speed_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_speed_zone_mesg_listener.hpp"/>
+                  <FILE id="Ww7UDJ" name="fit_sport_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sport_mesg.hpp"/>
+                  <FILE id="Fp0Ndn" name="fit_sport_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sport_mesg_listener.hpp"/>
+                  <FILE id="hhIVJ4" name="fit_stress_level_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_stress_level_mesg.hpp"/>
+                  <FILE id="xC8fyw" name="fit_stress_level_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_stress_level_mesg_listener.hpp"/>
+                  <FILE id="OQwVo1" name="fit_three_d_sensor_calibration_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_three_d_sensor_calibration_mesg.hpp"/>
+                  <FILE id="yt1W0x" name="fit_three_d_sensor_calibration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_three_d_sensor_calibration_mesg_listener.hpp"/>
+                  <FILE id="UIqjuB" name="fit_timestamp_correlation_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_timestamp_correlation_mesg.hpp"/>
+                  <FILE id="KMOtfS" name="fit_timestamp_correlation_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_timestamp_correlation_mesg_listener.hpp"/>
+                  <FILE id="HyuvfH" name="fit_totals_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_totals_mesg.hpp"/>
+                  <FILE id="qfEgmm" name="fit_totals_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_totals_mesg_listener.hpp"/>
+                  <FILE id="K8FnBP" name="fit_training_file_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_training_file_mesg.hpp"/>
+                  <FILE id="iGAZZg" name="fit_training_file_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_training_file_mesg_listener.hpp"/>
+                  <FILE id="ZoXucL" name="fit_unicode.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_unicode.hpp"/>
+                  <FILE id="DMhG1U" name="fit_user_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_user_profile_mesg.hpp"/>
+                  <FILE id="aWOSf0" name="fit_user_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_user_profile_mesg_listener.hpp"/>
+                  <FILE id="YsYh0H" name="fit_video_clip_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_clip_mesg.hpp"/>
+                  <FILE id="L0eplO" name="fit_video_clip_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_clip_mesg_listener.hpp"/>
+                  <FILE id="qT5E8E" name="fit_video_description_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_description_mesg.hpp"/>
+                  <FILE id="LTv8rc" name="fit_video_description_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_description_mesg_listener.hpp"/>
+                  <FILE id="ncoWZo" name="fit_video_frame_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_frame_mesg.hpp"/>
+                  <FILE id="HgedfP" name="fit_video_frame_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_frame_mesg_listener.hpp"/>
+                  <FILE id="AxoNWG" name="fit_video_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_mesg.hpp"/>
+                  <FILE id="BPq9LU" name="fit_video_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_mesg_listener.hpp"/>
+                  <FILE id="b2pb6u" name="fit_video_title_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_title_mesg.hpp"/>
+                  <FILE id="Nz3eLb" name="fit_video_title_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_title_mesg_listener.hpp"/>
+                  <FILE id="fYCrRa" name="fit_watchface_settings_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_watchface_settings_mesg.hpp"/>
+                  <FILE id="jmmcbg" name="fit_watchface_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_watchface_settings_mesg_listener.hpp"/>
+                  <FILE id="W4CHRO" name="fit_weather_alert_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_alert_mesg.hpp"/>
+                  <FILE id="jNvgyj" name="fit_weather_alert_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_alert_mesg_listener.hpp"/>
+                  <FILE id="bAblY7" name="fit_weather_conditions_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_conditions_mesg.hpp"/>
+                  <FILE id="xlnzYe" name="fit_weather_conditions_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_conditions_mesg_listener.hpp"/>
+                  <FILE id="k0jjc4" name="fit_weight_scale_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weight_scale_mesg.hpp"/>
+                  <FILE id="j0vzOa" name="fit_weight_scale_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weight_scale_mesg_listener.hpp"/>
+                  <FILE id="AwVAJw" name="fit_workout_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_mesg.hpp"/>
+                  <FILE id="kfheEJ" name="fit_workout_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_mesg_listener.hpp"/>
+                  <FILE id="B9Y5Yq" name="fit_workout_session_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_session_mesg.hpp"/>
+                  <FILE id="ogbCmu" name="fit_workout_session_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_session_mesg_listener.hpp"/>
+                  <FILE id="kjhV8O" name="fit_workout_step_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_step_mesg.hpp"/>
+                  <FILE id="v1jT45" name="fit_workout_step_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_step_mesg_listener.hpp"/>
+                  <FILE id="kvj3Vs" name="fit_zones_target_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_zones_target_mesg.hpp"/>
+                  <FILE id="MEB3kH" name="fit_zones_target_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_zones_target_mesg_listener.hpp"/>
+                </GROUP>
+              </GROUP>
+            </GROUP>
+            <FILE id="Ahq4BQ" name="libFitSdkCpp.a" compile="0" resource="1" file="lib/fitsdk/MacStaticLib/build/Release/libFitSdkCpp.a"/>
+          </GROUP>
+          <GROUP id="{F58D985D-74D1-60B6-A8D4-F37E6127FEE3}" name="ReleaseiOS-universal">
+            <GROUP id="{C5767DAF-EFF2-4598-FBAB-D28CAA35F36B}" name="usr">
+              <GROUP id="{9B997F8D-7EFA-39EA-9048-8A016BEFA656}" name="local">
+                <GROUP id="{BDFD182C-513D-20D9-D708-82041221AC1E}" name="include">
+                  <FILE id="haXS3e" name="fit.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit.hpp"/>
+                  <FILE id="AP4qB1" name="fit_accelerometer_data_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accelerometer_data_mesg.hpp"/>
+                  <FILE id="Kw8YYH" name="fit_accelerometer_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accelerometer_data_mesg_listener.hpp"/>
+                  <FILE id="KMZWBL" name="fit_accumulated_field.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accumulated_field.hpp"/>
+                  <FILE id="MREGbR" name="fit_accumulator.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accumulator.hpp"/>
+                  <FILE id="J52xs5" name="fit_activity_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_activity_mesg.hpp"/>
+                  <FILE id="Y1iZgf" name="fit_activity_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_activity_mesg_listener.hpp"/>
+                  <FILE id="cz6boW" name="fit_ant_channel_id_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_channel_id_mesg.hpp"/>
+                  <FILE id="xzkRrN" name="fit_ant_channel_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_channel_id_mesg_listener.hpp"/>
+                  <FILE id="Oz4zQC" name="fit_ant_rx_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_rx_mesg.hpp"/>
+                  <FILE id="xlCE0t" name="fit_ant_rx_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_rx_mesg_listener.hpp"/>
+                  <FILE id="wDHYE7" name="fit_ant_tx_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_tx_mesg.hpp"/>
+                  <FILE id="iU7QQp" name="fit_ant_tx_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_tx_mesg_listener.hpp"/>
+                  <FILE id="RLFJ3m" name="fit_aviation_attitude_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_aviation_attitude_mesg.hpp"/>
+                  <FILE id="Vb9aQE" name="fit_aviation_attitude_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_aviation_attitude_mesg_listener.hpp"/>
+                  <FILE id="ltuovl" name="fit_barometer_data_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_barometer_data_mesg.hpp"/>
+                  <FILE id="PNqHpW" name="fit_barometer_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_barometer_data_mesg_listener.hpp"/>
+                  <FILE id="YOnsQf" name="fit_bike_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_bike_profile_mesg.hpp"/>
+                  <FILE id="SV6XTC" name="fit_bike_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_bike_profile_mesg_listener.hpp"/>
+                  <FILE id="zm9Cgb" name="fit_blood_pressure_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_blood_pressure_mesg.hpp"/>
+                  <FILE id="QZJ3et" name="fit_blood_pressure_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_blood_pressure_mesg_listener.hpp"/>
+                  <FILE id="U0eiOg" name="fit_buffer_encode.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffer_encode.hpp"/>
+                  <FILE id="WEgqo7" name="fit_buffered_mesg_broadcaster.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_mesg_broadcaster.hpp"/>
+                  <FILE id="aJYdyI" name="fit_buffered_record_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg.hpp"/>
+                  <FILE id="KxacSq" name="fit_buffered_record_mesg_broadcaster.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg_broadcaster.hpp"/>
+                  <FILE id="u9mGhw" name="fit_buffered_record_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg_listener.hpp"/>
+                  <FILE id="nXg3XA" name="fit_cadence_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_cadence_zone_mesg.hpp"/>
+                  <FILE id="Fn06q9" name="fit_cadence_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_cadence_zone_mesg_listener.hpp"/>
+                  <FILE id="OHlNnw" name="fit_camera_event_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_camera_event_mesg.hpp"/>
+                  <FILE id="RzY0HE" name="fit_camera_event_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_camera_event_mesg_listener.hpp"/>
+                  <FILE id="C2Dhkx" name="fit_capabilities_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_capabilities_mesg.hpp"/>
+                  <FILE id="p5uUjy" name="fit_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_capabilities_mesg_listener.hpp"/>
+                  <FILE id="wIyDPL" name="fit_climb_pro_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_climb_pro_mesg.hpp"/>
+                  <FILE id="i8uTnE" name="fit_climb_pro_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_climb_pro_mesg_listener.hpp"/>
+                  <FILE id="CQpiYn" name="fit_config.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_config.hpp"/>
+                  <FILE id="LtXhKI" name="fit_connectivity_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_connectivity_mesg.hpp"/>
+                  <FILE id="sDp4Mw" name="fit_connectivity_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_connectivity_mesg_listener.hpp"/>
+                  <FILE id="XGqJbB" name="fit_course_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_mesg.hpp"/>
+                  <FILE id="iTdflS" name="fit_course_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_mesg_listener.hpp"/>
+                  <FILE id="O94lJp" name="fit_course_point_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_point_mesg.hpp"/>
+                  <FILE id="oramRD" name="fit_course_point_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_point_mesg_listener.hpp"/>
+                  <FILE id="NX8bXi" name="fit_crc.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_crc.hpp"/>
+                  <FILE id="qXRAQL" name="fit_date_time.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_date_time.hpp"/>
+                  <FILE id="xht4oc" name="fit_decode.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_decode.hpp"/>
+                  <FILE id="IzuWkX" name="fit_developer_data_id_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_data_id_mesg.hpp"/>
+                  <FILE id="zINZmS" name="fit_developer_data_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_data_id_mesg_listener.hpp"/>
+                  <FILE id="RbgpTO" name="fit_developer_field.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field.hpp"/>
+                  <FILE id="MPnn0M" name="fit_developer_field_definition.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_definition.hpp"/>
+                  <FILE id="dq9Vsb" name="fit_developer_field_description.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_description.hpp"/>
+                  <FILE id="UoFwam" name="fit_developer_field_description_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_description_listener.hpp"/>
+                  <FILE id="crwWD6" name="fit_device_info_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_info_mesg.hpp"/>
+                  <FILE id="DkHwUI" name="fit_device_info_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_info_mesg_listener.hpp"/>
+                  <FILE id="o22vxa" name="fit_device_settings_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_settings_mesg.hpp"/>
+                  <FILE id="Gssi4l" name="fit_device_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_settings_mesg_listener.hpp"/>
+                  <FILE id="voHxLj" name="fit_dive_alarm_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_alarm_mesg.hpp"/>
+                  <FILE id="dyl8sg" name="fit_dive_alarm_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_alarm_mesg_listener.hpp"/>
+                  <FILE id="LnZEgm" name="fit_dive_gas_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_gas_mesg.hpp"/>
+                  <FILE id="WwNm7V" name="fit_dive_gas_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_gas_mesg_listener.hpp"/>
+                  <FILE id="QeMklD" name="fit_dive_settings_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_settings_mesg.hpp"/>
+                  <FILE id="zzOnHz" name="fit_dive_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_settings_mesg_listener.hpp"/>
+                  <FILE id="vGgXkZ" name="fit_dive_summary_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_summary_mesg.hpp"/>
+                  <FILE id="Bm2VCU" name="fit_dive_summary_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_summary_mesg_listener.hpp"/>
+                  <FILE id="Ifl9Ws" name="fit_encode.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_encode.hpp"/>
+                  <FILE id="XtQP5e" name="fit_event_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_event_mesg.hpp"/>
+                  <FILE id="axKPM0" name="fit_event_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_event_mesg_listener.hpp"/>
+                  <FILE id="mjl20r" name="fit_exd_data_concept_configuration_mesg.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_concept_configuration_mesg.hpp"/>
+                  <FILE id="BbNzpQ" name="fit_exd_data_concept_configuration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_concept_configuration_mesg_listener.hpp"/>
+                  <FILE id="pIOyk6" name="fit_exd_data_field_configuration_mesg.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_field_configuration_mesg.hpp"/>
+                  <FILE id="RDfZfG" name="fit_exd_data_field_configuration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_field_configuration_mesg_listener.hpp"/>
+                  <FILE id="PKAm0A" name="fit_exd_screen_configuration_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_screen_configuration_mesg.hpp"/>
+                  <FILE id="ex20a6" name="fit_exd_screen_configuration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_screen_configuration_mesg_listener.hpp"/>
+                  <FILE id="Eo4NKe" name="fit_exercise_title_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exercise_title_mesg.hpp"/>
+                  <FILE id="FTCLG2" name="fit_exercise_title_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exercise_title_mesg_listener.hpp"/>
+                  <FILE id="c77XC9" name="fit_factory.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_factory.hpp"/>
+                  <FILE id="g0LZ75" name="fit_field.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field.hpp"/>
+                  <FILE id="RHeiLR" name="fit_field_base.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_base.hpp"/>
+                  <FILE id="hooj1I" name="fit_field_capabilities_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_capabilities_mesg.hpp"/>
+                  <FILE id="ABLZ06" name="fit_field_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_capabilities_mesg_listener.hpp"/>
+                  <FILE id="LYwpkb" name="fit_field_definition.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_definition.hpp"/>
+                  <FILE id="JxT6mw" name="fit_field_description_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_description_mesg.hpp"/>
+                  <FILE id="BOn5hv" name="fit_field_description_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_description_mesg_listener.hpp"/>
+                  <FILE id="MBIuEC" name="fit_file_capabilities_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_capabilities_mesg.hpp"/>
+                  <FILE id="sI7qkQ" name="fit_file_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_capabilities_mesg_listener.hpp"/>
+                  <FILE id="GNlMUM" name="fit_file_creator_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_creator_mesg.hpp"/>
+                  <FILE id="mdDZb1" name="fit_file_creator_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_creator_mesg_listener.hpp"/>
+                  <FILE id="upMTTQ" name="fit_file_id_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_id_mesg.hpp"/>
+                  <FILE id="XB9ANx" name="fit_file_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_id_mesg_listener.hpp"/>
+                  <FILE id="l3yyQ2" name="fit_goal_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_goal_mesg.hpp"/>
+                  <FILE id="Kp3dbC" name="fit_goal_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_goal_mesg_listener.hpp"/>
+                  <FILE id="p6iAiU" name="fit_gps_metadata_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gps_metadata_mesg.hpp"/>
+                  <FILE id="K5KB1t" name="fit_gps_metadata_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gps_metadata_mesg_listener.hpp"/>
+                  <FILE id="zeQblO" name="fit_gyroscope_data_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gyroscope_data_mesg.hpp"/>
+                  <FILE id="GeGFH7" name="fit_gyroscope_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gyroscope_data_mesg_listener.hpp"/>
+                  <FILE id="IMhpqo" name="fit_hr_mesg.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_mesg.hpp"/>
+                  <FILE id="BwSZWz" name="fit_hr_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_mesg_listener.hpp"/>
+                  <FILE id="eil3AV" name="fit_hr_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_zone_mesg.hpp"/>
+                  <FILE id="DDn9T3" name="fit_hr_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_zone_mesg_listener.hpp"/>
+                  <FILE id="DHqN8B" name="fit_hrm_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrm_profile_mesg.hpp"/>
+                  <FILE id="eYO7N0" name="fit_hrm_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrm_profile_mesg_listener.hpp"/>
+                  <FILE id="JqRwMk" name="fit_hrv_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrv_mesg.hpp"/>
+                  <FILE id="pGhRDi" name="fit_hrv_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrv_mesg_listener.hpp"/>
+                  <FILE id="DmnB9n" name="fit_jump_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_jump_mesg.hpp"/>
+                  <FILE id="Cx97RZ" name="fit_jump_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_jump_mesg_listener.hpp"/>
+                  <FILE id="G8oNK9" name="fit_lap_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_lap_mesg.hpp"/>
+                  <FILE id="kKg46z" name="fit_lap_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_lap_mesg_listener.hpp"/>
+                  <FILE id="UzSlRX" name="fit_length_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_length_mesg.hpp"/>
+                  <FILE id="K7UxTc" name="fit_length_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_length_mesg_listener.hpp"/>
+                  <FILE id="FrAO5J" name="fit_magnetometer_data_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_magnetometer_data_mesg.hpp"/>
+                  <FILE id="VSNGpP" name="fit_magnetometer_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_magnetometer_data_mesg_listener.hpp"/>
+                  <FILE id="TWGdjv" name="fit_memo_glob_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_memo_glob_mesg.hpp"/>
+                  <FILE id="pK2xHl" name="fit_memo_glob_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_memo_glob_mesg_listener.hpp"/>
+                  <FILE id="I7aQs0" name="fit_mesg.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg.hpp"/>
+                  <FILE id="SZ9xIU" name="fit_mesg_broadcast_plugin.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_broadcast_plugin.hpp"/>
+                  <FILE id="hYLoea" name="fit_mesg_broadcaster.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_broadcaster.hpp"/>
+                  <FILE id="SjYJKh" name="fit_mesg_capabilities_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_capabilities_mesg.hpp"/>
+                  <FILE id="gv6RuO" name="fit_mesg_capabilities_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_capabilities_mesg_listener.hpp"/>
+                  <FILE id="AafWNT" name="fit_mesg_definition.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_definition.hpp"/>
+                  <FILE id="Rth0w5" name="fit_mesg_definition_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_definition_listener.hpp"/>
+                  <FILE id="GHFa4B" name="fit_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_listener.hpp"/>
+                  <FILE id="HuILPC" name="fit_mesg_with_event.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event.hpp"/>
+                  <FILE id="TJMVG6" name="fit_mesg_with_event_broadcaster.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event_broadcaster.hpp"/>
+                  <FILE id="A5GKRS" name="fit_mesg_with_event_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event_listener.hpp"/>
+                  <FILE id="bUGnS9" name="fit_met_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_met_zone_mesg.hpp"/>
+                  <FILE id="B6c1I2" name="fit_met_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_met_zone_mesg_listener.hpp"/>
+                  <FILE id="ePY9Ue" name="fit_monitoring_info_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_info_mesg.hpp"/>
+                  <FILE id="W7vGDq" name="fit_monitoring_info_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_info_mesg_listener.hpp"/>
+                  <FILE id="fbmwm1" name="fit_monitoring_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_mesg.hpp"/>
+                  <FILE id="szYueV" name="fit_monitoring_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_mesg_listener.hpp"/>
+                  <FILE id="iGVlV3" name="fit_nmea_sentence_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_nmea_sentence_mesg.hpp"/>
+                  <FILE id="H9pR1m" name="fit_nmea_sentence_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_nmea_sentence_mesg_listener.hpp"/>
+                  <FILE id="vBCplN" name="fit_obdii_data_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_obdii_data_mesg.hpp"/>
+                  <FILE id="llYIRe" name="fit_obdii_data_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_obdii_data_mesg_listener.hpp"/>
+                  <FILE id="ra3FjR" name="fit_ohr_settings_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ohr_settings_mesg.hpp"/>
+                  <FILE id="mmKXib" name="fit_ohr_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ohr_settings_mesg_listener.hpp"/>
+                  <FILE id="QUiNJ8" name="fit_one_d_sensor_calibration_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_one_d_sensor_calibration_mesg.hpp"/>
+                  <FILE id="MtNnLz" name="fit_one_d_sensor_calibration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_one_d_sensor_calibration_mesg_listener.hpp"/>
+                  <FILE id="p6qJoL" name="fit_pad_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_pad_mesg.hpp"/>
+                  <FILE id="b2nI8N" name="fit_pad_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_pad_mesg_listener.hpp"/>
+                  <FILE id="ZN5Dnw" name="fit_power_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_power_zone_mesg.hpp"/>
+                  <FILE id="iFs2cj" name="fit_power_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_power_zone_mesg_listener.hpp"/>
+                  <FILE id="PEIFGU" name="fit_profile.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_profile.hpp"/>
+                  <FILE id="nHB10E" name="fit_protocol_validator.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_protocol_validator.hpp"/>
+                  <FILE id="J445W6" name="fit_record_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_record_mesg.hpp"/>
+                  <FILE id="wIzf6c" name="fit_record_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_record_mesg_listener.hpp"/>
+                  <FILE id="QoEMOK" name="fit_runtime_exception.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_runtime_exception.hpp"/>
+                  <FILE id="VcrGNI" name="fit_schedule_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_schedule_mesg.hpp"/>
+                  <FILE id="iARn0y" name="fit_schedule_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_schedule_mesg_listener.hpp"/>
+                  <FILE id="Y74bVZ" name="fit_sdm_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sdm_profile_mesg.hpp"/>
+                  <FILE id="RXjI1j" name="fit_sdm_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sdm_profile_mesg_listener.hpp"/>
+                  <FILE id="rPQapf" name="fit_segment_file_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_file_mesg.hpp"/>
+                  <FILE id="uI5J3d" name="fit_segment_file_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_file_mesg_listener.hpp"/>
+                  <FILE id="wYaf3d" name="fit_segment_id_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_id_mesg.hpp"/>
+                  <FILE id="wYcvQM" name="fit_segment_id_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_id_mesg_listener.hpp"/>
+                  <FILE id="svW1x8" name="fit_segment_lap_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_lap_mesg.hpp"/>
+                  <FILE id="tRqJax" name="fit_segment_lap_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_lap_mesg_listener.hpp"/>
+                  <FILE id="jRQERw" name="fit_segment_leaderboard_entry_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_leaderboard_entry_mesg.hpp"/>
+                  <FILE id="gXCCrB" name="fit_segment_leaderboard_entry_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_leaderboard_entry_mesg_listener.hpp"/>
+                  <FILE id="sDM43G" name="fit_segment_point_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_point_mesg.hpp"/>
+                  <FILE id="NPQVF0" name="fit_segment_point_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_point_mesg_listener.hpp"/>
+                  <FILE id="EaOCnu" name="fit_session_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_session_mesg.hpp"/>
+                  <FILE id="KNrMAT" name="fit_session_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_session_mesg_listener.hpp"/>
+                  <FILE id="AWAsYi" name="fit_set_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_set_mesg.hpp"/>
+                  <FILE id="NnMevQ" name="fit_set_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_set_mesg_listener.hpp"/>
+                  <FILE id="rSYqSc" name="fit_slave_device_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_slave_device_mesg.hpp"/>
+                  <FILE id="tNFqUd" name="fit_slave_device_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_slave_device_mesg_listener.hpp"/>
+                  <FILE id="antKV5" name="fit_software_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_software_mesg.hpp"/>
+                  <FILE id="eaRo2m" name="fit_software_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_software_mesg_listener.hpp"/>
+                  <FILE id="pvZI6Y" name="fit_speed_zone_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_speed_zone_mesg.hpp"/>
+                  <FILE id="hjTb4R" name="fit_speed_zone_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_speed_zone_mesg_listener.hpp"/>
+                  <FILE id="jdyYVj" name="fit_sport_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sport_mesg.hpp"/>
+                  <FILE id="feGFDQ" name="fit_sport_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sport_mesg_listener.hpp"/>
+                  <FILE id="bIZUwL" name="fit_stress_level_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_stress_level_mesg.hpp"/>
+                  <FILE id="UrAhCK" name="fit_stress_level_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_stress_level_mesg_listener.hpp"/>
+                  <FILE id="eu5srR" name="fit_three_d_sensor_calibration_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_three_d_sensor_calibration_mesg.hpp"/>
+                  <FILE id="ojstLC" name="fit_three_d_sensor_calibration_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_three_d_sensor_calibration_mesg_listener.hpp"/>
+                  <FILE id="Oqhn3M" name="fit_timestamp_correlation_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_timestamp_correlation_mesg.hpp"/>
+                  <FILE id="yp3Z7P" name="fit_timestamp_correlation_mesg_listener.hpp"
+                        compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_timestamp_correlation_mesg_listener.hpp"/>
+                  <FILE id="n0UgkX" name="fit_totals_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_totals_mesg.hpp"/>
+                  <FILE id="hfviWL" name="fit_totals_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_totals_mesg_listener.hpp"/>
+                  <FILE id="nWNapY" name="fit_training_file_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_training_file_mesg.hpp"/>
+                  <FILE id="T3iBt3" name="fit_training_file_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_training_file_mesg_listener.hpp"/>
+                  <FILE id="RK7FTi" name="fit_unicode.hpp" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_unicode.hpp"/>
+                  <FILE id="c65HIN" name="fit_user_profile_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_user_profile_mesg.hpp"/>
+                  <FILE id="TeH9Qb" name="fit_user_profile_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_user_profile_mesg_listener.hpp"/>
+                  <FILE id="lzCmjN" name="fit_video_clip_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_clip_mesg.hpp"/>
+                  <FILE id="pcsTgO" name="fit_video_clip_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_clip_mesg_listener.hpp"/>
+                  <FILE id="L9IYIm" name="fit_video_description_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_description_mesg.hpp"/>
+                  <FILE id="TDYZn0" name="fit_video_description_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_description_mesg_listener.hpp"/>
+                  <FILE id="dYMVZe" name="fit_video_frame_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_frame_mesg.hpp"/>
+                  <FILE id="t7whDk" name="fit_video_frame_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_frame_mesg_listener.hpp"/>
+                  <FILE id="qtzUNG" name="fit_video_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_mesg.hpp"/>
+                  <FILE id="tOdPCB" name="fit_video_mesg_listener.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_mesg_listener.hpp"/>
+                  <FILE id="QtlGm0" name="fit_video_title_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_title_mesg.hpp"/>
+                  <FILE id="qvSpo6" name="fit_video_title_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_title_mesg_listener.hpp"/>
+                  <FILE id="Gb8GQ8" name="fit_watchface_settings_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_watchface_settings_mesg.hpp"/>
+                  <FILE id="jhCmfD" name="fit_watchface_settings_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_watchface_settings_mesg_listener.hpp"/>
+                  <FILE id="WOT3Y5" name="fit_weather_alert_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_alert_mesg.hpp"/>
+                  <FILE id="kiwqmR" name="fit_weather_alert_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_alert_mesg_listener.hpp"/>
+                  <FILE id="OXNnE8" name="fit_weather_conditions_mesg.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_conditions_mesg.hpp"/>
+                  <FILE id="dHvIXP" name="fit_weather_conditions_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_conditions_mesg_listener.hpp"/>
+                  <FILE id="dunwiT" name="fit_weight_scale_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weight_scale_mesg.hpp"/>
+                  <FILE id="DLBT1R" name="fit_weight_scale_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weight_scale_mesg_listener.hpp"/>
+                  <FILE id="K1wIRs" name="fit_workout_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_mesg.hpp"/>
+                  <FILE id="jiKasg" name="fit_workout_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_mesg_listener.hpp"/>
+                  <FILE id="KN6Q7u" name="fit_workout_session_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_session_mesg.hpp"/>
+                  <FILE id="HBIK0T" name="fit_workout_session_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_session_mesg_listener.hpp"/>
+                  <FILE id="U0upax" name="fit_workout_step_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_step_mesg.hpp"/>
+                  <FILE id="RbgnQQ" name="fit_workout_step_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_step_mesg_listener.hpp"/>
+                  <FILE id="W3uzj8" name="fit_zones_target_mesg.hpp" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_zones_target_mesg.hpp"/>
+                  <FILE id="XF16S0" name="fit_zones_target_mesg_listener.hpp" compile="0"
+                        resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_zones_target_mesg_listener.hpp"/>
+                  <FILE id="bMFLLO" name="FitDecode.h" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitDecode.h"/>
+                  <FILE id="tPsMvW" name="FitDeveloperField.h" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitDeveloperField.h"/>
+                  <FILE id="TG6TNi" name="FitEncode.h" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitEncode.h"/>
+                  <FILE id="ZDjGnE" name="FitField.h" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitField.h"/>
+                  <FILE id="mqn5VH" name="FitFieldDefinition.h" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitFieldDefinition.h"/>
+                  <FILE id="jnHMHr" name="FitMesg.h" compile="0" resource="0" file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitMesg.h"/>
+                  <FILE id="bfqhSa" name="FitMesgDefinition.h" compile="0" resource="0"
+                        file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitMesgDefinition.h"/>
+                </GROUP>
+              </GROUP>
+            </GROUP>
+            <FILE id="OPjCW8" name="libFitSdkCppiOS.a" compile="0" resource="1"
+                  file="lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/libFitSdkCppiOS.a"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{F0CA2776-80BB-912A-DB5C-626478F837FA}" name="FitMacBaseProject">
+          <GROUP id="{7EE233D7-601A-A748-94C7-C8324B836022}" name="configs">
+            <FILE id="PgIiPD" name="DefaultDebugSettings.xcconfig" compile="0"
+                  resource="1" file="lib/fitsdk/MacStaticLib/FitMacBaseProject/configs/DefaultDebugSettings.xcconfig"/>
+            <FILE id="FhFwWx" name="DefaultReleaseSettings.xcconfig" compile="0"
+                  resource="1" file="lib/fitsdk/MacStaticLib/FitMacBaseProject/configs/DefaultReleaseSettings.xcconfig"/>
+          </GROUP>
+          <GROUP id="{8E217A2D-28DA-BA6A-ED20-8F81319AC4A4}" name="FitSdkCpp.xcodeproj">
+            <FILE id="zaoLl2" name="project.pbxproj" compile="0" resource="1" file="lib/fitsdk/MacStaticLib/FitMacBaseProject/FitSdkCpp.xcodeproj/project.pbxproj"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{87C20F77-534D-C972-DC6E-93F44A40C032}" name="FitSdkCppiOS">
+          <GROUP id="{DF5E8D13-A4CC-8241-BE62-3B8896CA1683}" name="configs">
+            <FILE id="R91yto" name="DefaultDebugSettings.xcconfig" compile="0"
+                  resource="1" file="lib/fitsdk/MacStaticLib/FitSdkCppiOS/configs/DefaultDebugSettings.xcconfig"/>
+            <FILE id="X4BdNQ" name="DefaultReleaseSettings.xcconfig" compile="0"
+                  resource="1" file="lib/fitsdk/MacStaticLib/FitSdkCppiOS/configs/DefaultReleaseSettings.xcconfig"/>
+          </GROUP>
+          <GROUP id="{8C95032E-1017-72B3-CAF2-01F33DE57A85}" name="FitSdkCppiOS.xcodeproj">
+            <FILE id="U1xxq9" name="project.pbxproj" compile="0" resource="1" file="lib/fitsdk/MacStaticLib/FitSdkCppiOS/FitSdkCppiOS.xcodeproj/project.pbxproj"/>
+          </GROUP>
+        </GROUP>
+        <FILE id="MMKp9g" name="build.py" compile="0" resource="1" file="lib/fitsdk/MacStaticLib/build.py"/>
+        <FILE id="oFQypR" name="script.rb" compile="0" resource="1" file="lib/fitsdk/MacStaticLib/script.rb"/>
+      </GROUP>
+      <FILE id="SKzf0y" name="fit.cpp" compile="1" resource="0" file="lib/fitsdk/fit.cpp"/>
+      <FILE id="Zwi89D" name="fit.hpp" compile="0" resource="0" file="lib/fitsdk/fit.hpp"/>
+      <FILE id="iuKQfq" name="fit_accelerometer_data_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_accelerometer_data_mesg.hpp"/>
+      <FILE id="x1YvrC" name="fit_accelerometer_data_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_accelerometer_data_mesg_listener.hpp"/>
+      <FILE id="E0OsgC" name="fit_accumulated_field.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_accumulated_field.cpp"/>
+      <FILE id="xfb7ku" name="fit_accumulated_field.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_accumulated_field.hpp"/>
+      <FILE id="FFdOkR" name="fit_accumulator.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_accumulator.cpp"/>
+      <FILE id="llkeLO" name="fit_accumulator.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_accumulator.hpp"/>
+      <FILE id="qnH8zb" name="fit_activity_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_activity_mesg.hpp"/>
+      <FILE id="D17Yby" name="fit_activity_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_activity_mesg_listener.hpp"/>
+      <FILE id="nhaass" name="fit_ant_channel_id_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_ant_channel_id_mesg.hpp"/>
+      <FILE id="I8hAOG" name="fit_ant_channel_id_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_ant_channel_id_mesg_listener.hpp"/>
+      <FILE id="DBhV4n" name="fit_ant_rx_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_ant_rx_mesg.hpp"/>
+      <FILE id="sfIiUA" name="fit_ant_rx_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_ant_rx_mesg_listener.hpp"/>
+      <FILE id="Abcxns" name="fit_ant_tx_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_ant_tx_mesg.hpp"/>
+      <FILE id="kofElh" name="fit_ant_tx_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_ant_tx_mesg_listener.hpp"/>
+      <FILE id="XXf5a5" name="fit_aviation_attitude_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_aviation_attitude_mesg.hpp"/>
+      <FILE id="Uf4Iyw" name="fit_aviation_attitude_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_aviation_attitude_mesg_listener.hpp"/>
+      <FILE id="W3Jixq" name="fit_barometer_data_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_barometer_data_mesg.hpp"/>
+      <FILE id="ibg1v0" name="fit_barometer_data_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_barometer_data_mesg_listener.hpp"/>
+      <FILE id="YGGPBp" name="fit_bike_profile_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_bike_profile_mesg.hpp"/>
+      <FILE id="s91Ctb" name="fit_bike_profile_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_bike_profile_mesg_listener.hpp"/>
+      <FILE id="swHWy2" name="fit_blood_pressure_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_blood_pressure_mesg.hpp"/>
+      <FILE id="wj1nJX" name="fit_blood_pressure_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_blood_pressure_mesg_listener.hpp"/>
+      <FILE id="UXl5Sc" name="fit_buffer_encode.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_buffer_encode.cpp"/>
+      <FILE id="nkDubs" name="fit_buffer_encode.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_buffer_encode.hpp"/>
+      <FILE id="o6nw4i" name="fit_buffered_mesg_broadcaster.cpp" compile="1"
+            resource="0" file="lib/fitsdk/fit_buffered_mesg_broadcaster.cpp"/>
+      <FILE id="yYFMPm" name="fit_buffered_mesg_broadcaster.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_buffered_mesg_broadcaster.hpp"/>
+      <FILE id="xrb33k" name="fit_buffered_record_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_buffered_record_mesg.hpp"/>
+      <FILE id="rraFMr" name="fit_buffered_record_mesg_broadcaster.cpp" compile="1"
+            resource="0" file="lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp"/>
+      <FILE id="TYHwoj" name="fit_buffered_record_mesg_broadcaster.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_buffered_record_mesg_broadcaster.hpp"/>
+      <FILE id="teqq3t" name="fit_buffered_record_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_buffered_record_mesg_listener.hpp"/>
+      <FILE id="RKrwD3" name="fit_cadence_zone_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_cadence_zone_mesg.hpp"/>
+      <FILE id="pqzSkP" name="fit_cadence_zone_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_cadence_zone_mesg_listener.hpp"/>
+      <FILE id="T1V2CN" name="fit_camera_event_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_camera_event_mesg.hpp"/>
+      <FILE id="F53L6y" name="fit_camera_event_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_camera_event_mesg_listener.hpp"/>
+      <FILE id="fNFRJE" name="fit_capabilities_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_capabilities_mesg.hpp"/>
+      <FILE id="VNGUoK" name="fit_capabilities_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_capabilities_mesg_listener.hpp"/>
+      <FILE id="Wo2Lgb" name="fit_climb_pro_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_climb_pro_mesg.hpp"/>
+      <FILE id="huE09f" name="fit_climb_pro_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_climb_pro_mesg_listener.hpp"/>
+      <FILE id="yFK9ow" name="fit_config.hpp" compile="0" resource="0" file="lib/fitsdk/fit_config.hpp"/>
+      <FILE id="EEVjug" name="fit_connectivity_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_connectivity_mesg.hpp"/>
+      <FILE id="a1lrJA" name="fit_connectivity_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_connectivity_mesg_listener.hpp"/>
+      <FILE id="SZwzqx" name="fit_course_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_course_mesg.hpp"/>
+      <FILE id="BahnEs" name="fit_course_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_course_mesg_listener.hpp"/>
+      <FILE id="mNcLZI" name="fit_course_point_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_course_point_mesg.hpp"/>
+      <FILE id="lw59nK" name="fit_course_point_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_course_point_mesg_listener.hpp"/>
+      <FILE id="heK79e" name="fit_crc.cpp" compile="1" resource="0" file="lib/fitsdk/fit_crc.cpp"/>
+      <FILE id="xryrW9" name="fit_crc.hpp" compile="0" resource="0" file="lib/fitsdk/fit_crc.hpp"/>
+      <FILE id="ztIzGk" name="fit_date_time.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_date_time.cpp"/>
+      <FILE id="XaqQq4" name="fit_date_time.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_date_time.hpp"/>
+      <FILE id="jwWzJ0" name="fit_decode.cpp" compile="1" resource="0" file="lib/fitsdk/fit_decode.cpp"/>
+      <FILE id="r90NtX" name="fit_decode.hpp" compile="0" resource="0" file="lib/fitsdk/fit_decode.hpp"/>
+      <FILE id="vR3iOh" name="fit_developer_data_id_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_developer_data_id_mesg.hpp"/>
+      <FILE id="ndxvf4" name="fit_developer_data_id_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_developer_data_id_mesg_listener.hpp"/>
+      <FILE id="xjpUxE" name="fit_developer_field.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_developer_field.cpp"/>
+      <FILE id="ejwlhf" name="fit_developer_field.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_developer_field.hpp"/>
+      <FILE id="Ho5pZI" name="fit_developer_field_definition.cpp" compile="1"
+            resource="0" file="lib/fitsdk/fit_developer_field_definition.cpp"/>
+      <FILE id="vvnlvs" name="fit_developer_field_definition.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_developer_field_definition.hpp"/>
+      <FILE id="LlgacG" name="fit_developer_field_description.cpp" compile="1"
+            resource="0" file="lib/fitsdk/fit_developer_field_description.cpp"/>
+      <FILE id="PNpGz5" name="fit_developer_field_description.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_developer_field_description.hpp"/>
+      <FILE id="kr02XJ" name="fit_developer_field_description_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_developer_field_description_listener.hpp"/>
+      <FILE id="rJau9M" name="fit_device_info_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_device_info_mesg.hpp"/>
+      <FILE id="BoAuBs" name="fit_device_info_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_device_info_mesg_listener.hpp"/>
+      <FILE id="LffQd0" name="fit_device_settings_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_device_settings_mesg.hpp"/>
+      <FILE id="WUVpJB" name="fit_device_settings_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_device_settings_mesg_listener.hpp"/>
+      <FILE id="C588Qv" name="fit_dive_alarm_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_dive_alarm_mesg.hpp"/>
+      <FILE id="tJVTop" name="fit_dive_alarm_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_dive_alarm_mesg_listener.hpp"/>
+      <FILE id="Fzr64h" name="fit_dive_gas_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_dive_gas_mesg.hpp"/>
+      <FILE id="wj7SfA" name="fit_dive_gas_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_dive_gas_mesg_listener.hpp"/>
+      <FILE id="Pj5YLO" name="fit_dive_settings_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_dive_settings_mesg.hpp"/>
+      <FILE id="jSiVPo" name="fit_dive_settings_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_dive_settings_mesg_listener.hpp"/>
+      <FILE id="CRi4yR" name="fit_dive_summary_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_dive_summary_mesg.hpp"/>
+      <FILE id="JrIvPT" name="fit_dive_summary_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_dive_summary_mesg_listener.hpp"/>
+      <FILE id="CGiV3Z" name="fit_encode.cpp" compile="1" resource="0" file="lib/fitsdk/fit_encode.cpp"/>
+      <FILE id="nBvdVI" name="fit_encode.hpp" compile="0" resource="0" file="lib/fitsdk/fit_encode.hpp"/>
+      <FILE id="VcHna9" name="fit_event_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_event_mesg.hpp"/>
+      <FILE id="VadBJy" name="fit_event_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_event_mesg_listener.hpp"/>
+      <FILE id="DkwFti" name="fit_exd_data_concept_configuration_mesg.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_exd_data_concept_configuration_mesg.hpp"/>
+      <FILE id="g8virp" name="fit_exd_data_concept_configuration_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_exd_data_concept_configuration_mesg_listener.hpp"/>
+      <FILE id="QQAoFM" name="fit_exd_data_field_configuration_mesg.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_exd_data_field_configuration_mesg.hpp"/>
+      <FILE id="Dy8WKG" name="fit_exd_data_field_configuration_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_exd_data_field_configuration_mesg_listener.hpp"/>
+      <FILE id="zwOH4u" name="fit_exd_screen_configuration_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_exd_screen_configuration_mesg.hpp"/>
+      <FILE id="x72PB6" name="fit_exd_screen_configuration_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_exd_screen_configuration_mesg_listener.hpp"/>
+      <FILE id="rD00zE" name="fit_exercise_title_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_exercise_title_mesg.hpp"/>
+      <FILE id="bTXYlh" name="fit_exercise_title_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_exercise_title_mesg_listener.hpp"/>
+      <FILE id="x3ytyr" name="fit_factory.cpp" compile="1" resource="0" file="lib/fitsdk/fit_factory.cpp"/>
+      <FILE id="DlcUlJ" name="fit_factory.hpp" compile="0" resource="0" file="lib/fitsdk/fit_factory.hpp"/>
+      <FILE id="UEUN22" name="fit_field.cpp" compile="1" resource="0" file="lib/fitsdk/fit_field.cpp"/>
+      <FILE id="AM8qfu" name="fit_field.hpp" compile="0" resource="0" file="lib/fitsdk/fit_field.hpp"/>
+      <FILE id="ynBYST" name="fit_field_base.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_field_base.cpp"/>
+      <FILE id="iFGNTV" name="fit_field_base.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_field_base.hpp"/>
+      <FILE id="QFs5gK" name="fit_field_capabilities_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_field_capabilities_mesg.hpp"/>
+      <FILE id="O2gEau" name="fit_field_capabilities_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_field_capabilities_mesg_listener.hpp"/>
+      <FILE id="sx7ArG" name="fit_field_definition.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_field_definition.cpp"/>
+      <FILE id="ng2UgE" name="fit_field_definition.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_field_definition.hpp"/>
+      <FILE id="GEe1Ko" name="fit_field_description_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_field_description_mesg.hpp"/>
+      <FILE id="M1pdYQ" name="fit_field_description_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_field_description_mesg_listener.hpp"/>
+      <FILE id="BO1Spx" name="fit_file_capabilities_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_file_capabilities_mesg.hpp"/>
+      <FILE id="H2fKb7" name="fit_file_capabilities_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_file_capabilities_mesg_listener.hpp"/>
+      <FILE id="FXi6P9" name="fit_file_creator_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_file_creator_mesg.hpp"/>
+      <FILE id="qukMzj" name="fit_file_creator_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_file_creator_mesg_listener.hpp"/>
+      <FILE id="S4DHCj" name="fit_file_id_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_file_id_mesg.hpp"/>
+      <FILE id="jpgoPi" name="fit_file_id_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_file_id_mesg_listener.hpp"/>
+      <FILE id="iD2hLv" name="fit_goal_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_goal_mesg.hpp"/>
+      <FILE id="K4ju04" name="fit_goal_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_goal_mesg_listener.hpp"/>
+      <FILE id="Sz6opT" name="fit_gps_metadata_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_gps_metadata_mesg.hpp"/>
+      <FILE id="LSpPcA" name="fit_gps_metadata_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_gps_metadata_mesg_listener.hpp"/>
+      <FILE id="bKA8OF" name="fit_gyroscope_data_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_gyroscope_data_mesg.hpp"/>
+      <FILE id="BjvtKH" name="fit_gyroscope_data_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_gyroscope_data_mesg_listener.hpp"/>
+      <FILE id="MV0cHb" name="fit_hr_mesg.hpp" compile="0" resource="0" file="lib/fitsdk/fit_hr_mesg.hpp"/>
+      <FILE id="LPXuHb" name="fit_hr_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_hr_mesg_listener.hpp"/>
+      <FILE id="JioVOD" name="fit_hr_zone_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_hr_zone_mesg.hpp"/>
+      <FILE id="FgdbPt" name="fit_hr_zone_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_hr_zone_mesg_listener.hpp"/>
+      <FILE id="ZlJLc7" name="fit_hrm_profile_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_hrm_profile_mesg.hpp"/>
+      <FILE id="cLfPwl" name="fit_hrm_profile_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_hrm_profile_mesg_listener.hpp"/>
+      <FILE id="wWtZ70" name="fit_hrv_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_hrv_mesg.hpp"/>
+      <FILE id="XryPT5" name="fit_hrv_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_hrv_mesg_listener.hpp"/>
+      <FILE id="JqJkrm" name="fit_jump_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_jump_mesg.hpp"/>
+      <FILE id="hug5Rj" name="fit_jump_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_jump_mesg_listener.hpp"/>
+      <FILE id="e9Lnsd" name="fit_lap_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_lap_mesg.hpp"/>
+      <FILE id="uKVTK0" name="fit_lap_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_lap_mesg_listener.hpp"/>
+      <FILE id="LbqJjv" name="fit_length_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_length_mesg.hpp"/>
+      <FILE id="KZu97q" name="fit_length_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_length_mesg_listener.hpp"/>
+      <FILE id="BUbIKc" name="fit_magnetometer_data_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_magnetometer_data_mesg.hpp"/>
+      <FILE id="p9mFYb" name="fit_magnetometer_data_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_magnetometer_data_mesg_listener.hpp"/>
+      <FILE id="Cv1aQ6" name="fit_memo_glob_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_memo_glob_mesg.hpp"/>
+      <FILE id="Nyvdg9" name="fit_memo_glob_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_memo_glob_mesg_listener.hpp"/>
+      <FILE id="uyckg8" name="fit_mesg.cpp" compile="1" resource="0" file="lib/fitsdk/fit_mesg.cpp"/>
+      <FILE id="u4yF9O" name="fit_mesg.hpp" compile="0" resource="0" file="lib/fitsdk/fit_mesg.hpp"/>
+      <FILE id="KUiQgZ" name="fit_mesg_broadcast_plugin.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_mesg_broadcast_plugin.hpp"/>
+      <FILE id="nAZ73r" name="fit_mesg_broadcaster.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_mesg_broadcaster.cpp"/>
+      <FILE id="f8XCEg" name="fit_mesg_broadcaster.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_mesg_broadcaster.hpp"/>
+      <FILE id="suKOV2" name="fit_mesg_capabilities_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_mesg_capabilities_mesg.hpp"/>
+      <FILE id="gGlDED" name="fit_mesg_capabilities_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_mesg_capabilities_mesg_listener.hpp"/>
+      <FILE id="lVze55" name="fit_mesg_definition.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_mesg_definition.cpp"/>
+      <FILE id="LTgCFK" name="fit_mesg_definition.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_mesg_definition.hpp"/>
+      <FILE id="xB7afI" name="fit_mesg_definition_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_mesg_definition_listener.hpp"/>
+      <FILE id="P55g8j" name="fit_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_mesg_listener.hpp"/>
+      <FILE id="uff9Sj" name="fit_mesg_with_event.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_mesg_with_event.hpp"/>
+      <FILE id="RLwsoK" name="fit_mesg_with_event_broadcaster.cpp" compile="1"
+            resource="0" file="lib/fitsdk/fit_mesg_with_event_broadcaster.cpp"/>
+      <FILE id="QH4AhZ" name="fit_mesg_with_event_broadcaster.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_mesg_with_event_broadcaster.hpp"/>
+      <FILE id="lSjPPV" name="fit_mesg_with_event_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_mesg_with_event_listener.hpp"/>
+      <FILE id="bDH3Ui" name="fit_met_zone_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_met_zone_mesg.hpp"/>
+      <FILE id="p3OV9l" name="fit_met_zone_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_met_zone_mesg_listener.hpp"/>
+      <FILE id="fFiEfg" name="fit_monitoring_info_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_monitoring_info_mesg.hpp"/>
+      <FILE id="IOyWuD" name="fit_monitoring_info_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_monitoring_info_mesg_listener.hpp"/>
+      <FILE id="eZ4PEb" name="fit_monitoring_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_monitoring_mesg.hpp"/>
+      <FILE id="Qv3c2X" name="fit_monitoring_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_monitoring_mesg_listener.hpp"/>
+      <FILE id="BYKJki" name="fit_nmea_sentence_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_nmea_sentence_mesg.hpp"/>
+      <FILE id="kRxcwG" name="fit_nmea_sentence_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_nmea_sentence_mesg_listener.hpp"/>
+      <FILE id="zxLybC" name="fit_obdii_data_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_obdii_data_mesg.hpp"/>
+      <FILE id="tLg0Qj" name="fit_obdii_data_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_obdii_data_mesg_listener.hpp"/>
+      <FILE id="lN7ooF" name="fit_ohr_settings_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_ohr_settings_mesg.hpp"/>
+      <FILE id="dpcJjy" name="fit_ohr_settings_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_ohr_settings_mesg_listener.hpp"/>
+      <FILE id="IrOtIB" name="fit_one_d_sensor_calibration_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_one_d_sensor_calibration_mesg.hpp"/>
+      <FILE id="ksEWsT" name="fit_one_d_sensor_calibration_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_one_d_sensor_calibration_mesg_listener.hpp"/>
+      <FILE id="DxSmht" name="fit_pad_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_pad_mesg.hpp"/>
+      <FILE id="FTNjTh" name="fit_pad_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_pad_mesg_listener.hpp"/>
+      <FILE id="AH0SYz" name="fit_power_zone_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_power_zone_mesg.hpp"/>
+      <FILE id="hk4UmZ" name="fit_power_zone_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_power_zone_mesg_listener.hpp"/>
+      <FILE id="VlYGrz" name="fit_profile.cpp" compile="1" resource="0" file="lib/fitsdk/fit_profile.cpp"/>
+      <FILE id="NL3QTd" name="fit_profile.hpp" compile="0" resource="0" file="lib/fitsdk/fit_profile.hpp"/>
+      <FILE id="xAFj7A" name="fit_protocol_validator.cpp" compile="1" resource="0"
+            file="lib/fitsdk/fit_protocol_validator.cpp"/>
+      <FILE id="tGSUpu" name="fit_protocol_validator.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_protocol_validator.hpp"/>
+      <FILE id="QBdU6t" name="fit_record_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_record_mesg.hpp"/>
+      <FILE id="YW2KcO" name="fit_record_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_record_mesg_listener.hpp"/>
+      <FILE id="d4zGle" name="fit_runtime_exception.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_runtime_exception.hpp"/>
+      <FILE id="FpHnJR" name="fit_schedule_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_schedule_mesg.hpp"/>
+      <FILE id="Tb5rau" name="fit_schedule_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_schedule_mesg_listener.hpp"/>
+      <FILE id="HweT3e" name="fit_sdm_profile_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_sdm_profile_mesg.hpp"/>
+      <FILE id="jY6hPy" name="fit_sdm_profile_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_sdm_profile_mesg_listener.hpp"/>
+      <FILE id="L5xvK7" name="fit_segment_file_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_segment_file_mesg.hpp"/>
+      <FILE id="Z8nSbv" name="fit_segment_file_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_segment_file_mesg_listener.hpp"/>
+      <FILE id="x7mFvj" name="fit_segment_id_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_segment_id_mesg.hpp"/>
+      <FILE id="Kd9Blz" name="fit_segment_id_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_segment_id_mesg_listener.hpp"/>
+      <FILE id="cD5T7D" name="fit_segment_lap_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_segment_lap_mesg.hpp"/>
+      <FILE id="JnxZB7" name="fit_segment_lap_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_segment_lap_mesg_listener.hpp"/>
+      <FILE id="ys51C3" name="fit_segment_leaderboard_entry_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_segment_leaderboard_entry_mesg.hpp"/>
+      <FILE id="JFCkiS" name="fit_segment_leaderboard_entry_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_segment_leaderboard_entry_mesg_listener.hpp"/>
+      <FILE id="ZITVJi" name="fit_segment_point_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_segment_point_mesg.hpp"/>
+      <FILE id="Zzu3mY" name="fit_segment_point_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_segment_point_mesg_listener.hpp"/>
+      <FILE id="DVPX32" name="fit_session_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_session_mesg.hpp"/>
+      <FILE id="vxhzGd" name="fit_session_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_session_mesg_listener.hpp"/>
+      <FILE id="ZLJAQ9" name="fit_set_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_set_mesg.hpp"/>
+      <FILE id="I5fhyP" name="fit_set_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_set_mesg_listener.hpp"/>
+      <FILE id="RxQJat" name="fit_slave_device_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_slave_device_mesg.hpp"/>
+      <FILE id="hjOZdG" name="fit_slave_device_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_slave_device_mesg_listener.hpp"/>
+      <FILE id="GGiC1F" name="fit_software_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_software_mesg.hpp"/>
+      <FILE id="alcWec" name="fit_software_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_software_mesg_listener.hpp"/>
+      <FILE id="GH8XQq" name="fit_speed_zone_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_speed_zone_mesg.hpp"/>
+      <FILE id="ikgE1o" name="fit_speed_zone_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_speed_zone_mesg_listener.hpp"/>
+      <FILE id="JbtTrk" name="fit_sport_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_sport_mesg.hpp"/>
+      <FILE id="RRdsCG" name="fit_sport_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_sport_mesg_listener.hpp"/>
+      <FILE id="NjYaiE" name="fit_stress_level_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_stress_level_mesg.hpp"/>
+      <FILE id="IwMheg" name="fit_stress_level_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_stress_level_mesg_listener.hpp"/>
+      <FILE id="hdl4Va" name="fit_three_d_sensor_calibration_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_three_d_sensor_calibration_mesg.hpp"/>
+      <FILE id="eXucUi" name="fit_three_d_sensor_calibration_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_three_d_sensor_calibration_mesg_listener.hpp"/>
+      <FILE id="QiGvZP" name="fit_timestamp_correlation_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_timestamp_correlation_mesg.hpp"/>
+      <FILE id="OSevX1" name="fit_timestamp_correlation_mesg_listener.hpp"
+            compile="0" resource="0" file="lib/fitsdk/fit_timestamp_correlation_mesg_listener.hpp"/>
+      <FILE id="ZMORec" name="fit_totals_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_totals_mesg.hpp"/>
+      <FILE id="Il1w8R" name="fit_totals_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_totals_mesg_listener.hpp"/>
+      <FILE id="hn9Yid" name="fit_training_file_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_training_file_mesg.hpp"/>
+      <FILE id="MoSIsC" name="fit_training_file_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_training_file_mesg_listener.hpp"/>
+      <FILE id="JApV3V" name="fit_unicode.cpp" compile="1" resource="0" file="lib/fitsdk/fit_unicode.cpp"/>
+      <FILE id="lISb3l" name="fit_unicode.hpp" compile="0" resource="0" file="lib/fitsdk/fit_unicode.hpp"/>
+      <FILE id="a7GUu0" name="fit_user_profile_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_user_profile_mesg.hpp"/>
+      <FILE id="JttLvL" name="fit_user_profile_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_user_profile_mesg_listener.hpp"/>
+      <FILE id="gF76iW" name="fit_video_clip_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_video_clip_mesg.hpp"/>
+      <FILE id="WdV4fC" name="fit_video_clip_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_video_clip_mesg_listener.hpp"/>
+      <FILE id="yfqIC9" name="fit_video_description_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_video_description_mesg.hpp"/>
+      <FILE id="RfT7wp" name="fit_video_description_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_video_description_mesg_listener.hpp"/>
+      <FILE id="BYVs3t" name="fit_video_frame_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_video_frame_mesg.hpp"/>
+      <FILE id="lFTMqd" name="fit_video_frame_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_video_frame_mesg_listener.hpp"/>
+      <FILE id="XcUT13" name="fit_video_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_video_mesg.hpp"/>
+      <FILE id="LhU191" name="fit_video_mesg_listener.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_video_mesg_listener.hpp"/>
+      <FILE id="lWbsF5" name="fit_video_title_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_video_title_mesg.hpp"/>
+      <FILE id="VfgrV8" name="fit_video_title_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_video_title_mesg_listener.hpp"/>
+      <FILE id="jbFOTN" name="fit_watchface_settings_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_watchface_settings_mesg.hpp"/>
+      <FILE id="fSECru" name="fit_watchface_settings_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_watchface_settings_mesg_listener.hpp"/>
+      <FILE id="Pb8LX9" name="fit_weather_alert_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_weather_alert_mesg.hpp"/>
+      <FILE id="S9RY1B" name="fit_weather_alert_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_weather_alert_mesg_listener.hpp"/>
+      <FILE id="OssmHK" name="fit_weather_conditions_mesg.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_weather_conditions_mesg.hpp"/>
+      <FILE id="sti0ji" name="fit_weather_conditions_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_weather_conditions_mesg_listener.hpp"/>
+      <FILE id="yY7AQf" name="fit_weight_scale_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_weight_scale_mesg.hpp"/>
+      <FILE id="z8kVbu" name="fit_weight_scale_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_weight_scale_mesg_listener.hpp"/>
+      <FILE id="BpLq7I" name="fit_workout_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_workout_mesg.hpp"/>
+      <FILE id="Ors3PL" name="fit_workout_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_workout_mesg_listener.hpp"/>
+      <FILE id="x5ixrm" name="fit_workout_session_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_workout_session_mesg.hpp"/>
+      <FILE id="jr5gj4" name="fit_workout_session_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_workout_session_mesg_listener.hpp"/>
+      <FILE id="D3GUKj" name="fit_workout_step_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_workout_step_mesg.hpp"/>
+      <FILE id="KuVmH0" name="fit_workout_step_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_workout_step_mesg_listener.hpp"/>
+      <FILE id="vouyXl" name="fit_zones_target_mesg.hpp" compile="0" resource="0"
+            file="lib/fitsdk/fit_zones_target_mesg.hpp"/>
+      <FILE id="A1J4qk" name="fit_zones_target_mesg_listener.hpp" compile="0"
+            resource="0" file="lib/fitsdk/fit_zones_target_mesg_listener.hpp"/>
+      <FILE id="rUmFnm" name="FitDecode.h" compile="0" resource="0" file="lib/fitsdk/FitDecode.h"/>
+      <FILE id="E5153R" name="FitDecode.mm" compile="1" resource="0" file="lib/fitsdk/FitDecode.mm"/>
+      <FILE id="gLfItc" name="FitDeveloperField.h" compile="0" resource="0"
+            file="lib/fitsdk/FitDeveloperField.h"/>
+      <FILE id="hbfC6D" name="FitDeveloperField.mm" compile="1" resource="0"
+            file="lib/fitsdk/FitDeveloperField.mm"/>
+      <FILE id="Z7B5wX" name="FitEncode.h" compile="0" resource="0" file="lib/fitsdk/FitEncode.h"/>
+      <FILE id="nY9GCI" name="FitEncode.mm" compile="1" resource="0" file="lib/fitsdk/FitEncode.mm"/>
+      <FILE id="EZ3wK1" name="FitField.h" compile="0" resource="0" file="lib/fitsdk/FitField.h"/>
+      <FILE id="ME0PtG" name="FitField.mm" compile="1" resource="0" file="lib/fitsdk/FitField.mm"/>
+      <FILE id="RRsZ5D" name="FitFieldDefinition.h" compile="0" resource="0"
+            file="lib/fitsdk/FitFieldDefinition.h"/>
+      <FILE id="iWEoVT" name="FitFieldDefinition.mm" compile="1" resource="0"
+            file="lib/fitsdk/FitFieldDefinition.mm"/>
+      <FILE id="AsGnii" name="FitMesg.h" compile="0" resource="0" file="lib/fitsdk/FitMesg.h"/>
+      <FILE id="dp3vG1" name="FitMesg.mm" compile="1" resource="0" file="lib/fitsdk/FitMesg.mm"/>
+      <FILE id="ITvUuP" name="FitMesgDefinition.h" compile="0" resource="0"
+            file="lib/fitsdk/FitMesgDefinition.h"/>
+      <FILE id="tssBee" name="FitMesgDefinition.mm" compile="1" resource="0"
+            file="lib/fitsdk/FitMesgDefinition.mm"/>
+    </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX">
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="$(PROJECT_DIR)/lib/fitsdk">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FIle Converter"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FIle Converter"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>

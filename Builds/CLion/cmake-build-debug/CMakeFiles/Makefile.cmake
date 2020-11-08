@@ -48,9 +48,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "NewProject.app/Contents/MacOS"
-  "NewProject.app/Contents/Info.plist"
-  "NewProject.app/Contents/Info.plist"
+  "FIle Converter.app/Contents/MacOS"
+  "FIle Converter.app/Contents/Info.plist"
+  "FIle Converter.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

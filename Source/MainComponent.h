@@ -1,27 +1,30 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include <string>
+#include <sstream>
+#include <vector>
 
-//==============================================================================
-/*
-    This component lives inside our window, and this is where you should put all
-    your controls and content.
-*/
-class MainComponent  : public juce::Component
-{
+class MainComponent : public juce::Component {
 public:
-    //==============================================================================
+    static const std::vector<std::string> SUPPORTED_FILE_TYPES;
+
+    static std::string getFileTypeStr();
+
     MainComponent();
+
     ~MainComponent() override;
 
-    //==============================================================================
-    void paint (juce::Graphics&) override;
+    void paint(juce::Graphics &) override;
+
     void resized() override;
 
 private:
-    //==============================================================================
-    // Your private member variables go here...
-
-
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
+
+    juce::TextButton openButton;
+
+    juce::FileChooser fileChooser;
+
+    void openButtonClicked();
 };

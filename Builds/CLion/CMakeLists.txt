@@ -19,6 +19,691 @@ add_executable (APP
     "../../Source/Main.cpp"
     "../../Source/MainComponent.h"
     "../../Source/MainComponent.cpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accelerometer_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accelerometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accumulated_field.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accumulator.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_activity_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_activity_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_channel_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_channel_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_rx_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_rx_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_tx_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_tx_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_aviation_attitude_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_aviation_attitude_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_barometer_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_barometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_bike_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_bike_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_blood_pressure_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_blood_pressure_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffer_encode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_cadence_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_cadence_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_camera_event_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_camera_event_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_climb_pro_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_climb_pro_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_config.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_connectivity_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_connectivity_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_point_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_point_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_crc.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_date_time.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_decode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_data_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_data_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_definition.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_description.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_description_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_info_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_info_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_alarm_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_alarm_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_gas_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_gas_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_summary_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_summary_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_encode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_event_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_event_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_concept_configuration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_concept_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_field_configuration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_field_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_screen_configuration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_screen_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exercise_title_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exercise_title_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_factory.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_base.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_definition.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_description_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_description_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_creator_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_creator_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_goal_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_goal_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gps_metadata_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gps_metadata_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gyroscope_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gyroscope_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrm_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrm_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrv_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrv_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_jump_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_jump_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_lap_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_lap_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_length_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_length_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_magnetometer_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_magnetometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_memo_glob_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_memo_glob_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_broadcast_plugin.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_definition.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_definition_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_met_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_met_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_info_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_info_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_nmea_sentence_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_nmea_sentence_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_obdii_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_obdii_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ohr_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ohr_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_one_d_sensor_calibration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_one_d_sensor_calibration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_pad_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_pad_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_power_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_power_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_profile.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_protocol_validator.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_record_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_record_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_runtime_exception.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_schedule_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_schedule_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sdm_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sdm_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_file_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_file_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_lap_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_lap_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_leaderboard_entry_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_leaderboard_entry_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_point_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_point_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_session_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_session_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_set_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_set_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_slave_device_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_slave_device_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_software_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_software_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_speed_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_speed_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sport_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sport_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_stress_level_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_stress_level_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_three_d_sensor_calibration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_three_d_sensor_calibration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_timestamp_correlation_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_timestamp_correlation_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_totals_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_totals_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_training_file_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_training_file_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_unicode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_user_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_user_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_clip_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_clip_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_description_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_description_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_frame_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_frame_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_title_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_title_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_watchface_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_watchface_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_alert_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_alert_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_conditions_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_conditions_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weight_scale_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weight_scale_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_session_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_session_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_step_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_step_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_zones_target_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_zones_target_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/Release/libFitSdkCpp.a"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accelerometer_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accelerometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accumulated_field.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accumulator.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_activity_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_activity_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_channel_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_channel_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_rx_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_rx_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_tx_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_tx_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_aviation_attitude_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_aviation_attitude_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_barometer_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_barometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_bike_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_bike_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_blood_pressure_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_blood_pressure_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffer_encode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_cadence_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_cadence_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_camera_event_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_camera_event_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_climb_pro_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_climb_pro_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_config.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_connectivity_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_connectivity_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_point_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_point_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_crc.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_date_time.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_decode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_data_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_data_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_definition.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_description.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_description_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_info_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_info_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_alarm_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_alarm_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_gas_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_gas_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_summary_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_summary_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_encode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_event_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_event_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_concept_configuration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_concept_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_field_configuration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_field_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_screen_configuration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_screen_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exercise_title_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exercise_title_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_factory.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_base.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_definition.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_description_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_description_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_creator_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_creator_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_goal_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_goal_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gps_metadata_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gps_metadata_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gyroscope_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gyroscope_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrm_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrm_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrv_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrv_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_jump_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_jump_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_lap_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_lap_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_length_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_length_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_magnetometer_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_magnetometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_memo_glob_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_memo_glob_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_broadcast_plugin.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_capabilities_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_definition.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_definition_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event_broadcaster.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_met_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_met_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_info_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_info_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_nmea_sentence_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_nmea_sentence_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_obdii_data_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_obdii_data_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ohr_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ohr_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_one_d_sensor_calibration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_one_d_sensor_calibration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_pad_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_pad_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_power_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_power_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_profile.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_protocol_validator.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_record_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_record_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_runtime_exception.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_schedule_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_schedule_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sdm_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sdm_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_file_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_file_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_id_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_id_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_lap_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_lap_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_leaderboard_entry_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_leaderboard_entry_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_point_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_point_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_session_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_session_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_set_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_set_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_slave_device_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_slave_device_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_software_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_software_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_speed_zone_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_speed_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sport_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sport_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_stress_level_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_stress_level_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_three_d_sensor_calibration_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_three_d_sensor_calibration_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_timestamp_correlation_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_timestamp_correlation_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_totals_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_totals_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_training_file_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_training_file_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_unicode.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_user_profile_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_user_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_clip_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_clip_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_description_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_description_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_frame_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_frame_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_title_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_title_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_watchface_settings_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_watchface_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_alert_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_alert_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_conditions_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_conditions_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weight_scale_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weight_scale_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_session_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_session_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_step_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_step_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_zones_target_mesg.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_zones_target_mesg_listener.hpp"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitDecode.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitDeveloperField.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitEncode.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitField.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitFieldDefinition.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitMesg.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitMesgDefinition.h"
+    "../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/libFitSdkCppiOS.a"
+    "../../lib/fitsdk/MacStaticLib/FitMacBaseProject/configs/DefaultDebugSettings.xcconfig"
+    "../../lib/fitsdk/MacStaticLib/FitMacBaseProject/configs/DefaultReleaseSettings.xcconfig"
+    "../../lib/fitsdk/MacStaticLib/FitMacBaseProject/FitSdkCpp.xcodeproj/project.pbxproj"
+    "../../lib/fitsdk/MacStaticLib/FitSdkCppiOS/configs/DefaultDebugSettings.xcconfig"
+    "../../lib/fitsdk/MacStaticLib/FitSdkCppiOS/configs/DefaultReleaseSettings.xcconfig"
+    "../../lib/fitsdk/MacStaticLib/FitSdkCppiOS/FitSdkCppiOS.xcodeproj/project.pbxproj"
+    "../../lib/fitsdk/MacStaticLib/build.py"
+    "../../lib/fitsdk/MacStaticLib/script.rb"
+    "../../lib/fitsdk/fit.cpp"
+    "../../lib/fitsdk/fit.hpp"
+    "../../lib/fitsdk/fit_accelerometer_data_mesg.hpp"
+    "../../lib/fitsdk/fit_accelerometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_accumulated_field.cpp"
+    "../../lib/fitsdk/fit_accumulated_field.hpp"
+    "../../lib/fitsdk/fit_accumulator.cpp"
+    "../../lib/fitsdk/fit_accumulator.hpp"
+    "../../lib/fitsdk/fit_activity_mesg.hpp"
+    "../../lib/fitsdk/fit_activity_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_ant_channel_id_mesg.hpp"
+    "../../lib/fitsdk/fit_ant_channel_id_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_ant_rx_mesg.hpp"
+    "../../lib/fitsdk/fit_ant_rx_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_ant_tx_mesg.hpp"
+    "../../lib/fitsdk/fit_ant_tx_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_aviation_attitude_mesg.hpp"
+    "../../lib/fitsdk/fit_aviation_attitude_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_barometer_data_mesg.hpp"
+    "../../lib/fitsdk/fit_barometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_bike_profile_mesg.hpp"
+    "../../lib/fitsdk/fit_bike_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_blood_pressure_mesg.hpp"
+    "../../lib/fitsdk/fit_blood_pressure_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_buffer_encode.cpp"
+    "../../lib/fitsdk/fit_buffer_encode.hpp"
+    "../../lib/fitsdk/fit_buffered_mesg_broadcaster.cpp"
+    "../../lib/fitsdk/fit_buffered_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/fit_buffered_record_mesg.hpp"
+    "../../lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp"
+    "../../lib/fitsdk/fit_buffered_record_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/fit_buffered_record_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_cadence_zone_mesg.hpp"
+    "../../lib/fitsdk/fit_cadence_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_camera_event_mesg.hpp"
+    "../../lib/fitsdk/fit_camera_event_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_capabilities_mesg.hpp"
+    "../../lib/fitsdk/fit_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_climb_pro_mesg.hpp"
+    "../../lib/fitsdk/fit_climb_pro_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_config.hpp"
+    "../../lib/fitsdk/fit_connectivity_mesg.hpp"
+    "../../lib/fitsdk/fit_connectivity_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_course_mesg.hpp"
+    "../../lib/fitsdk/fit_course_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_course_point_mesg.hpp"
+    "../../lib/fitsdk/fit_course_point_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_crc.cpp"
+    "../../lib/fitsdk/fit_crc.hpp"
+    "../../lib/fitsdk/fit_date_time.cpp"
+    "../../lib/fitsdk/fit_date_time.hpp"
+    "../../lib/fitsdk/fit_decode.cpp"
+    "../../lib/fitsdk/fit_decode.hpp"
+    "../../lib/fitsdk/fit_developer_data_id_mesg.hpp"
+    "../../lib/fitsdk/fit_developer_data_id_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_developer_field.cpp"
+    "../../lib/fitsdk/fit_developer_field.hpp"
+    "../../lib/fitsdk/fit_developer_field_definition.cpp"
+    "../../lib/fitsdk/fit_developer_field_definition.hpp"
+    "../../lib/fitsdk/fit_developer_field_description.cpp"
+    "../../lib/fitsdk/fit_developer_field_description.hpp"
+    "../../lib/fitsdk/fit_developer_field_description_listener.hpp"
+    "../../lib/fitsdk/fit_device_info_mesg.hpp"
+    "../../lib/fitsdk/fit_device_info_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_device_settings_mesg.hpp"
+    "../../lib/fitsdk/fit_device_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_dive_alarm_mesg.hpp"
+    "../../lib/fitsdk/fit_dive_alarm_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_dive_gas_mesg.hpp"
+    "../../lib/fitsdk/fit_dive_gas_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_dive_settings_mesg.hpp"
+    "../../lib/fitsdk/fit_dive_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_dive_summary_mesg.hpp"
+    "../../lib/fitsdk/fit_dive_summary_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_encode.cpp"
+    "../../lib/fitsdk/fit_encode.hpp"
+    "../../lib/fitsdk/fit_event_mesg.hpp"
+    "../../lib/fitsdk/fit_event_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_exd_data_concept_configuration_mesg.hpp"
+    "../../lib/fitsdk/fit_exd_data_concept_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_exd_data_field_configuration_mesg.hpp"
+    "../../lib/fitsdk/fit_exd_data_field_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_exd_screen_configuration_mesg.hpp"
+    "../../lib/fitsdk/fit_exd_screen_configuration_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_exercise_title_mesg.hpp"
+    "../../lib/fitsdk/fit_exercise_title_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_factory.cpp"
+    "../../lib/fitsdk/fit_factory.hpp"
+    "../../lib/fitsdk/fit_field.cpp"
+    "../../lib/fitsdk/fit_field.hpp"
+    "../../lib/fitsdk/fit_field_base.cpp"
+    "../../lib/fitsdk/fit_field_base.hpp"
+    "../../lib/fitsdk/fit_field_capabilities_mesg.hpp"
+    "../../lib/fitsdk/fit_field_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_field_definition.cpp"
+    "../../lib/fitsdk/fit_field_definition.hpp"
+    "../../lib/fitsdk/fit_field_description_mesg.hpp"
+    "../../lib/fitsdk/fit_field_description_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_file_capabilities_mesg.hpp"
+    "../../lib/fitsdk/fit_file_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_file_creator_mesg.hpp"
+    "../../lib/fitsdk/fit_file_creator_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_file_id_mesg.hpp"
+    "../../lib/fitsdk/fit_file_id_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_goal_mesg.hpp"
+    "../../lib/fitsdk/fit_goal_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_gps_metadata_mesg.hpp"
+    "../../lib/fitsdk/fit_gps_metadata_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_gyroscope_data_mesg.hpp"
+    "../../lib/fitsdk/fit_gyroscope_data_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_hr_mesg.hpp"
+    "../../lib/fitsdk/fit_hr_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_hr_zone_mesg.hpp"
+    "../../lib/fitsdk/fit_hr_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_hrm_profile_mesg.hpp"
+    "../../lib/fitsdk/fit_hrm_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_hrv_mesg.hpp"
+    "../../lib/fitsdk/fit_hrv_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_jump_mesg.hpp"
+    "../../lib/fitsdk/fit_jump_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_lap_mesg.hpp"
+    "../../lib/fitsdk/fit_lap_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_length_mesg.hpp"
+    "../../lib/fitsdk/fit_length_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_magnetometer_data_mesg.hpp"
+    "../../lib/fitsdk/fit_magnetometer_data_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_memo_glob_mesg.hpp"
+    "../../lib/fitsdk/fit_memo_glob_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_mesg.cpp"
+    "../../lib/fitsdk/fit_mesg.hpp"
+    "../../lib/fitsdk/fit_mesg_broadcast_plugin.hpp"
+    "../../lib/fitsdk/fit_mesg_broadcaster.cpp"
+    "../../lib/fitsdk/fit_mesg_broadcaster.hpp"
+    "../../lib/fitsdk/fit_mesg_capabilities_mesg.hpp"
+    "../../lib/fitsdk/fit_mesg_capabilities_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_mesg_definition.cpp"
+    "../../lib/fitsdk/fit_mesg_definition.hpp"
+    "../../lib/fitsdk/fit_mesg_definition_listener.hpp"
+    "../../lib/fitsdk/fit_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_mesg_with_event.hpp"
+    "../../lib/fitsdk/fit_mesg_with_event_broadcaster.cpp"
+    "../../lib/fitsdk/fit_mesg_with_event_broadcaster.hpp"
+    "../../lib/fitsdk/fit_mesg_with_event_listener.hpp"
+    "../../lib/fitsdk/fit_met_zone_mesg.hpp"
+    "../../lib/fitsdk/fit_met_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_monitoring_info_mesg.hpp"
+    "../../lib/fitsdk/fit_monitoring_info_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_monitoring_mesg.hpp"
+    "../../lib/fitsdk/fit_monitoring_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_nmea_sentence_mesg.hpp"
+    "../../lib/fitsdk/fit_nmea_sentence_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_obdii_data_mesg.hpp"
+    "../../lib/fitsdk/fit_obdii_data_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_ohr_settings_mesg.hpp"
+    "../../lib/fitsdk/fit_ohr_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_one_d_sensor_calibration_mesg.hpp"
+    "../../lib/fitsdk/fit_one_d_sensor_calibration_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_pad_mesg.hpp"
+    "../../lib/fitsdk/fit_pad_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_power_zone_mesg.hpp"
+    "../../lib/fitsdk/fit_power_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_profile.cpp"
+    "../../lib/fitsdk/fit_profile.hpp"
+    "../../lib/fitsdk/fit_protocol_validator.cpp"
+    "../../lib/fitsdk/fit_protocol_validator.hpp"
+    "../../lib/fitsdk/fit_record_mesg.hpp"
+    "../../lib/fitsdk/fit_record_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_runtime_exception.hpp"
+    "../../lib/fitsdk/fit_schedule_mesg.hpp"
+    "../../lib/fitsdk/fit_schedule_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_sdm_profile_mesg.hpp"
+    "../../lib/fitsdk/fit_sdm_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_segment_file_mesg.hpp"
+    "../../lib/fitsdk/fit_segment_file_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_segment_id_mesg.hpp"
+    "../../lib/fitsdk/fit_segment_id_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_segment_lap_mesg.hpp"
+    "../../lib/fitsdk/fit_segment_lap_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_segment_leaderboard_entry_mesg.hpp"
+    "../../lib/fitsdk/fit_segment_leaderboard_entry_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_segment_point_mesg.hpp"
+    "../../lib/fitsdk/fit_segment_point_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_session_mesg.hpp"
+    "../../lib/fitsdk/fit_session_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_set_mesg.hpp"
+    "../../lib/fitsdk/fit_set_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_slave_device_mesg.hpp"
+    "../../lib/fitsdk/fit_slave_device_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_software_mesg.hpp"
+    "../../lib/fitsdk/fit_software_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_speed_zone_mesg.hpp"
+    "../../lib/fitsdk/fit_speed_zone_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_sport_mesg.hpp"
+    "../../lib/fitsdk/fit_sport_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_stress_level_mesg.hpp"
+    "../../lib/fitsdk/fit_stress_level_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_three_d_sensor_calibration_mesg.hpp"
+    "../../lib/fitsdk/fit_three_d_sensor_calibration_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_timestamp_correlation_mesg.hpp"
+    "../../lib/fitsdk/fit_timestamp_correlation_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_totals_mesg.hpp"
+    "../../lib/fitsdk/fit_totals_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_training_file_mesg.hpp"
+    "../../lib/fitsdk/fit_training_file_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_unicode.cpp"
+    "../../lib/fitsdk/fit_unicode.hpp"
+    "../../lib/fitsdk/fit_user_profile_mesg.hpp"
+    "../../lib/fitsdk/fit_user_profile_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_video_clip_mesg.hpp"
+    "../../lib/fitsdk/fit_video_clip_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_video_description_mesg.hpp"
+    "../../lib/fitsdk/fit_video_description_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_video_frame_mesg.hpp"
+    "../../lib/fitsdk/fit_video_frame_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_video_mesg.hpp"
+    "../../lib/fitsdk/fit_video_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_video_title_mesg.hpp"
+    "../../lib/fitsdk/fit_video_title_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_watchface_settings_mesg.hpp"
+    "../../lib/fitsdk/fit_watchface_settings_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_weather_alert_mesg.hpp"
+    "../../lib/fitsdk/fit_weather_alert_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_weather_conditions_mesg.hpp"
+    "../../lib/fitsdk/fit_weather_conditions_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_weight_scale_mesg.hpp"
+    "../../lib/fitsdk/fit_weight_scale_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_workout_mesg.hpp"
+    "../../lib/fitsdk/fit_workout_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_workout_session_mesg.hpp"
+    "../../lib/fitsdk/fit_workout_session_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_workout_step_mesg.hpp"
+    "../../lib/fitsdk/fit_workout_step_mesg_listener.hpp"
+    "../../lib/fitsdk/fit_zones_target_mesg.hpp"
+    "../../lib/fitsdk/fit_zones_target_mesg_listener.hpp"
+    "../../lib/fitsdk/FitDecode.h"
+    "../../lib/fitsdk/FitDecode.mm"
+    "../../lib/fitsdk/FitDeveloperField.h"
+    "../../lib/fitsdk/FitDeveloperField.mm"
+    "../../lib/fitsdk/FitEncode.h"
+    "../../lib/fitsdk/FitEncode.mm"
+    "../../lib/fitsdk/FitField.h"
+    "../../lib/fitsdk/FitField.mm"
+    "../../lib/fitsdk/FitFieldDefinition.h"
+    "../../lib/fitsdk/FitFieldDefinition.mm"
+    "../../lib/fitsdk/FitMesg.h"
+    "../../lib/fitsdk/FitMesg.mm"
+    "../../lib/fitsdk/FitMesgDefinition.h"
+    "../../lib/fitsdk/FitMesgDefinition.mm"
     "../../../../../JUCE/modules/juce_core/containers/juce_AbstractFifo.cpp"
     "../../../../../JUCE/modules/juce_core/containers/juce_AbstractFifo.h"
     "../../../../../JUCE/modules/juce_core/containers/juce_Array.h"
@@ -784,6 +1469,9 @@ add_executable (APP
     "../../../../../JUCE/modules/juce_gui_basics/juce_gui_basics.cpp"
     "../../../../../JUCE/modules/juce_gui_basics/juce_gui_basics.mm"
     "../../../../../JUCE/modules/juce_gui_basics/juce_gui_basics.h"
+    "../../JuceLibraryCode/BinaryData.cpp"
+    "../../JuceLibraryCode/BinaryData.h"
+    "../../JuceLibraryCode/BinaryData2.cpp"
     "../../JuceLibraryCode/include_juce_core.mm"
     "../../JuceLibraryCode/include_juce_data_structures.mm"
     "../../JuceLibraryCode/include_juce_events.mm"
@@ -793,6 +1481,660 @@ add_executable (APP
 )
 
 set_source_files_properties ("../../Source/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accelerometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accelerometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accumulated_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_accumulator.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_activity_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_activity_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_channel_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_channel_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_rx_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_rx_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_tx_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ant_tx_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_aviation_attitude_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_aviation_attitude_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_barometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_barometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_bike_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_bike_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_blood_pressure_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_blood_pressure_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffer_encode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_buffered_record_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_cadence_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_cadence_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_camera_event_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_camera_event_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_climb_pro_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_climb_pro_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_config.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_connectivity_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_connectivity_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_point_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_course_point_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_crc.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_date_time.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_decode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_data_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_data_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_description.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_developer_field_description_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_info_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_info_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_device_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_alarm_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_alarm_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_gas_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_gas_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_summary_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_dive_summary_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_encode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_event_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_event_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_concept_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_concept_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_field_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_data_field_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_screen_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exd_screen_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exercise_title_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_exercise_title_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_factory.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_base.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_description_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_field_description_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_creator_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_creator_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_file_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_goal_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_goal_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gps_metadata_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gps_metadata_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gyroscope_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_gyroscope_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hr_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrm_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrm_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrv_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_hrv_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_jump_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_jump_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_lap_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_lap_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_length_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_length_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_magnetometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_magnetometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_memo_glob_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_memo_glob_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_broadcast_plugin.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_definition_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_mesg_with_event_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_met_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_met_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_info_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_info_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_monitoring_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_nmea_sentence_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_nmea_sentence_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_obdii_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_obdii_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ohr_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_ohr_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_one_d_sensor_calibration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_one_d_sensor_calibration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_pad_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_pad_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_power_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_power_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_profile.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_protocol_validator.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_record_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_record_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_runtime_exception.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_schedule_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_schedule_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sdm_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sdm_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_file_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_file_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_lap_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_lap_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_leaderboard_entry_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_leaderboard_entry_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_point_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_segment_point_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_session_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_session_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_set_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_set_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_slave_device_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_slave_device_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_software_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_software_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_speed_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_speed_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sport_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_sport_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_stress_level_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_stress_level_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_three_d_sensor_calibration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_three_d_sensor_calibration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_timestamp_correlation_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_timestamp_correlation_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_totals_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_totals_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_training_file_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_training_file_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_unicode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_user_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_user_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_clip_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_clip_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_description_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_description_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_frame_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_frame_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_title_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_video_title_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_watchface_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_watchface_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_alert_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_alert_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_conditions_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weather_conditions_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weight_scale_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_weight_scale_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_session_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_session_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_step_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_workout_step_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_zones_target_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/usr/local/include/fit_zones_target_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/Release/libFitSdkCpp.a" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accelerometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accelerometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accumulated_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_accumulator.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_activity_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_activity_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_channel_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_channel_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_rx_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_rx_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_tx_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ant_tx_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_aviation_attitude_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_aviation_attitude_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_barometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_barometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_bike_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_bike_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_blood_pressure_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_blood_pressure_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffer_encode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_buffered_record_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_cadence_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_cadence_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_camera_event_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_camera_event_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_climb_pro_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_climb_pro_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_config.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_connectivity_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_connectivity_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_point_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_course_point_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_crc.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_date_time.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_decode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_data_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_data_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_description.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_developer_field_description_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_info_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_info_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_device_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_alarm_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_alarm_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_gas_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_gas_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_summary_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_dive_summary_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_encode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_event_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_event_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_concept_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_concept_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_field_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_data_field_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_screen_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exd_screen_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exercise_title_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_exercise_title_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_factory.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_base.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_description_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_field_description_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_creator_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_creator_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_file_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_goal_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_goal_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gps_metadata_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gps_metadata_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gyroscope_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_gyroscope_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hr_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrm_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrm_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrv_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_hrv_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_jump_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_jump_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_lap_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_lap_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_length_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_length_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_magnetometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_magnetometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_memo_glob_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_memo_glob_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_broadcast_plugin.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_definition_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_mesg_with_event_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_met_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_met_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_info_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_info_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_monitoring_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_nmea_sentence_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_nmea_sentence_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_obdii_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_obdii_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ohr_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_ohr_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_one_d_sensor_calibration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_one_d_sensor_calibration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_pad_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_pad_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_power_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_power_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_profile.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_protocol_validator.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_record_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_record_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_runtime_exception.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_schedule_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_schedule_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sdm_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sdm_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_file_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_file_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_lap_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_lap_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_leaderboard_entry_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_leaderboard_entry_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_point_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_segment_point_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_session_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_session_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_set_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_set_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_slave_device_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_slave_device_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_software_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_software_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_speed_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_speed_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sport_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_sport_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_stress_level_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_stress_level_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_three_d_sensor_calibration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_three_d_sensor_calibration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_timestamp_correlation_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_timestamp_correlation_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_totals_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_totals_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_training_file_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_training_file_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_unicode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_user_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_user_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_clip_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_clip_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_description_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_description_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_frame_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_frame_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_title_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_video_title_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_watchface_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_watchface_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_alert_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_alert_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_conditions_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weather_conditions_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weight_scale_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_weight_scale_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_session_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_session_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_step_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_workout_step_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_zones_target_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/fit_zones_target_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitDecode.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitDeveloperField.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitEncode.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitField.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitFieldDefinition.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitMesg.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/usr/local/include/FitMesgDefinition.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build/ReleaseiOS-universal/libFitSdkCppiOS.a" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/FitMacBaseProject/configs/DefaultDebugSettings.xcconfig" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/FitMacBaseProject/configs/DefaultReleaseSettings.xcconfig" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/FitMacBaseProject/FitSdkCpp.xcodeproj/project.pbxproj" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/FitSdkCppiOS/configs/DefaultDebugSettings.xcconfig" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/FitSdkCppiOS/configs/DefaultReleaseSettings.xcconfig" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/FitSdkCppiOS/FitSdkCppiOS.xcodeproj/project.pbxproj" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/build.py" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/MacStaticLib/script.rb" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_accelerometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_accelerometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_accumulated_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_accumulator.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_activity_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_activity_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ant_channel_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ant_channel_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ant_rx_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ant_rx_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ant_tx_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ant_tx_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_aviation_attitude_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_aviation_attitude_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_barometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_barometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_bike_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_bike_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_blood_pressure_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_blood_pressure_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_buffer_encode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_buffered_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_buffered_record_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_buffered_record_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_buffered_record_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_cadence_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_cadence_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_camera_event_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_camera_event_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_climb_pro_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_climb_pro_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_config.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_connectivity_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_connectivity_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_course_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_course_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_course_point_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_course_point_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_crc.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_date_time.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_decode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_developer_data_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_developer_data_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_developer_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_developer_field_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_developer_field_description.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_developer_field_description_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_device_info_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_device_info_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_device_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_device_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_alarm_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_alarm_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_gas_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_gas_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_summary_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_dive_summary_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_encode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_event_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_event_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exd_data_concept_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exd_data_concept_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exd_data_field_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exd_data_field_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exd_screen_configuration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exd_screen_configuration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exercise_title_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_exercise_title_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_factory.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field_base.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field_description_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_field_description_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_file_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_file_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_file_creator_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_file_creator_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_file_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_file_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_goal_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_goal_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_gps_metadata_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_gps_metadata_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_gyroscope_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_gyroscope_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hr_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hr_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hr_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hr_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hrm_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hrm_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hrv_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_hrv_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_jump_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_jump_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_lap_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_lap_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_length_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_length_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_magnetometer_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_magnetometer_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_memo_glob_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_memo_glob_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_broadcast_plugin.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_capabilities_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_capabilities_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_definition.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_definition_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_with_event.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_with_event_broadcaster.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_mesg_with_event_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_met_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_met_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_monitoring_info_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_monitoring_info_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_monitoring_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_monitoring_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_nmea_sentence_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_nmea_sentence_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_obdii_data_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_obdii_data_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ohr_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_ohr_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_one_d_sensor_calibration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_one_d_sensor_calibration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_pad_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_pad_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_power_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_power_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_profile.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_protocol_validator.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_record_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_record_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_runtime_exception.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_schedule_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_schedule_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_sdm_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_sdm_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_file_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_file_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_id_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_id_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_lap_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_lap_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_leaderboard_entry_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_leaderboard_entry_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_point_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_segment_point_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_session_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_session_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_set_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_set_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_slave_device_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_slave_device_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_software_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_software_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_speed_zone_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_speed_zone_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_sport_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_sport_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_stress_level_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_stress_level_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_three_d_sensor_calibration_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_three_d_sensor_calibration_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_timestamp_correlation_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_timestamp_correlation_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_totals_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_totals_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_training_file_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_training_file_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_unicode.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_user_profile_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_user_profile_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_clip_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_clip_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_description_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_description_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_frame_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_frame_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_title_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_video_title_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_watchface_settings_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_watchface_settings_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_weather_alert_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_weather_alert_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_weather_conditions_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_weather_conditions_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_weight_scale_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_weight_scale_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_workout_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_workout_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_workout_session_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_workout_session_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_workout_step_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_workout_step_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_zones_target_mesg.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/fit_zones_target_mesg_listener.hpp" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitDecode.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitDeveloperField.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitEncode.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitField.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitFieldDefinition.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitMesg.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../lib/fitsdk/FitMesgDefinition.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../JUCE/modules/juce_core/containers/juce_AbstractFifo.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../JUCE/modules/juce_core/containers/juce_AbstractFifo.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../JUCE/modules/juce_core/containers/juce_Array.h" PROPERTIES HEADER_FILE_ONLY TRUE)
@@ -1558,6 +2900,7 @@ set_source_files_properties ("../../../../../JUCE/modules/juce_gui_basics/window
 set_source_files_properties ("../../../../../JUCE/modules/juce_gui_basics/juce_gui_basics.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../JUCE/modules/juce_gui_basics/juce_gui_basics.mm" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../JUCE/modules/juce_gui_basics/juce_gui_basics.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../JuceLibraryCode/BinaryData.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../JuceLibraryCode/JuceHeader.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 
 #------------------------------------------------------------------------------
@@ -1607,7 +2950,7 @@ target_compile_options (APP PRIVATE
 )
 
 set_target_properties (APP PROPERTIES
-    OUTPUT_NAME "NewProject"
+    OUTPUT_NAME "FIle Converter"
     CXX_STANDARD 14
     CXX_EXTENSIONS OFF
     XCODE_ATTRIBUTE_CLANG_LINK_OBJC_RUNTIME NO
@@ -1625,11 +2968,11 @@ set_target_properties (APP PROPERTIES
 					"../../../../../JUCE/modules"
 				)
     XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER com.yourcompany.FileConverter
-    XCODE_ATTRIBUTE_PRODUCT_NAME "NewProject"
+    XCODE_ATTRIBUTE_PRODUCT_NAME "FIle Converter"
     XCODE_ATTRIBUTE_USE_HEADERMAP NO
     XCODE_ATTRIBUTE_VALID_ARCHS "i386 x86_64 arm64 arm64e"
     MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Debug-Info-App.plist"
-    XCODE_ATTRIBUTE_PRODUCT_NAME "NewProject"
+    XCODE_ATTRIBUTE_PRODUCT_NAME "FIle Converter"
     MACOSX_BUNDLE TRUE
 )
 
@@ -1693,7 +3036,7 @@ target_compile_options (APP PRIVATE
 )
 
 set_target_properties (APP PROPERTIES
-    OUTPUT_NAME "NewProject"
+    OUTPUT_NAME "FIle Converter"
     CXX_STANDARD 14
     CXX_EXTENSIONS OFF
     XCODE_ATTRIBUTE_CLANG_LINK_OBJC_RUNTIME NO
@@ -1711,15 +3054,16 @@ set_target_properties (APP PROPERTIES
 					"../../../../../JUCE/modules",
 				)
     XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER com.yourcompany.FileConverter
-    XCODE_ATTRIBUTE_PRODUCT_NAME "NewProject"
+    XCODE_ATTRIBUTE_PRODUCT_NAME "FIle Converter"
     XCODE_ATTRIBUTE_USE_HEADERMAP NO
     XCODE_ATTRIBUTE_VALID_ARCHS "i386 x86_64 arm64 arm64e"
     MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Release-Info-App.plist"
-    XCODE_ATTRIBUTE_PRODUCT_NAME "NewProject"
+    XCODE_ATTRIBUTE_PRODUCT_NAME "FIle Converter"
     MACOSX_BUNDLE TRUE
 )
 
 target_link_libraries (APP PRIVATE
+    "-l$(PROJECT_DIR)/lib/fitsdk"
     "-framework Carbon"
     "-framework Cocoa"
     "-framework IOKit"

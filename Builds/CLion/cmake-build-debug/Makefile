@@ -143,6 +143,60 @@ APP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/build
 .PHONY : APP/fast
 
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.o: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.i: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.s: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.o: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.i: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.s: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.cpp.s
+
 Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/include_juce_core.o: Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/include_juce_core.mm.o
 
 .PHONY : Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/include_juce_core.o
@@ -332,6 +386,843 @@ Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.cpp.s
 .PHONY : Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.cpp.s
 
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.mm.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.cpp.s
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.o: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.o
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.o
+
+# target to build an object file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.o
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.o
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.i: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.i
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.i
+
+# target to preprocess a source file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.i
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.i
+
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.s: Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.s
+
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.s
+
+# target to generate assembly for a file
+Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.s
+.PHONY : Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -341,6 +1232,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... APP"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/BinaryData2.s"
 	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/include_juce_core.o"
 	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/include_juce_core.i"
 	@echo "... Users/coleinman/Programs/c++/FileConverter/JuceLibraryCode/include_juce_core.s"
@@ -362,6 +1259,99 @@ help:
 	@echo "... Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.o"
 	@echo "... Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.i"
 	@echo "... Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDecode.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitDeveloperField.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitEncode.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitField.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitFieldDefinition.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesg.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/FitMesgDefinition.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulated_field.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_accumulator.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffer_encode.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_mesg_broadcaster.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_buffered_record_mesg_broadcaster.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_crc.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_date_time.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_decode.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_definition.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_developer_field_description.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_encode.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_factory.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_base.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_field_definition.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_broadcaster.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_definition.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_mesg_with_event_broadcaster.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_profile.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_protocol_validator.s"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.o"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.i"
+	@echo "... Users/coleinman/Programs/c++/FileConverter/lib/fitsdk/fit_unicode.s"
 .PHONY : help
 
 

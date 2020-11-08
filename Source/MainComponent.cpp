@@ -1,29 +1,47 @@
 #include "MainComponent.h"
 
-//==============================================================================
-MainComponent::MainComponent()
-{
-    setSize (600, 400);
+const std::vector<std::string> MainComponent::SUPPORTED_FILE_TYPES = {
+        "fit"
+};
+
+
+std::string MainComponent::getFileTypeStr() {
+    std::stringstream ss;
+    for (const auto &i : SUPPORTED_FILE_TYPES) {
+        ss << "*." << i << ";";
+    }
+    return ss.str();
 }
 
-MainComponent::~MainComponent()
-{
+MainComponent::MainComponent() :
+        fileChooser("Choose a File", {}, getFileTypeStr(), true, true, this) {
+    setOpaque(true);
+
+    addAndMakeVisible(&openButton);
+    std::stringstream ss;
+    ss << "Open a " << getFileTypeStr() << " file.";
+    openButton.setButtonText(ss.str());
+    openButton.onClick = [this] { openButtonClicked(); };
+
+    lookAndFeelChanged();
+    setSize(600, 400);
 }
 
-//==============================================================================
-void MainComponent::paint (juce::Graphics& g)
-{
+MainComponent::~MainComponent() {
+}
+
+void MainComponent::paint(juce::Graphics &g) {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
-    g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
-
-    g.setFont (juce::Font (16.0f));
-    g.setColour (juce::Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
+    g.fillAll(getLookAndFeel().findColour(juce::ResizableWindow::backgroundColourId));
 }
 
-void MainComponent::resized()
-{
-    // This is called when the MainComponent is resized.
-    // If you add any child components, this is where you should
-    // update their positions.
+void MainComponent::resized() {
+    openButton.setBounds(10, 10, getWidth() - 20, 30);
+}
+
+void MainComponent::openButtonClicked() {
+    if (fileChooser.browseForFileToOpen()) {
+        auto file = fileChooser.getResult();
+        // TODO: read the file data here
+    }
 }

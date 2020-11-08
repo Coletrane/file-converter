@@ -1,4 +1,6 @@
 #include <JuceHeader.h>
+
+#include <memory>
 #include "MainComponent.h"
 
 class FileConverterApplication  : public juce::JUCEApplication
@@ -8,12 +10,12 @@ public:
 
     const juce::String getApplicationName() override       { return ProjectInfo::projectName; }
     const juce::String getApplicationVersion() override    { return ProjectInfo::versionString; }
-    bool moreThanOneInstanceAllowed() override             { return true; }
+    bool moreThanOneInstanceAllowed() override             { return false; }
 
     void initialise (const juce::String& commandLine) override
     {
-        
-        mainWindow.reset (new MainWindow (getApplicationName()));
+
+        mainWindow = std::make_unique<MainWindow> (getApplicationName());
     }
 
     void shutdown() override
@@ -28,19 +30,11 @@ public:
         quit();
     }
 
-    void anotherInstanceStarted (const juce::String& commandLine) override
-    {
-        // When another instance of the app is launched while this one is running,
-        // this method is invoked, and the commandLine parameter tells you what
-        // the other instance's command-line arguments were.
-    }
-
-    //==============================================================================
     /*
         This class implements the desktop window that contains an instance of
         our MainComponent class.
     */
-    class MainWindow    : public juce::DocumentWindow
+    class MainWindow : public juce::DocumentWindow
     {
     public:
         MainWindow (juce::String name)

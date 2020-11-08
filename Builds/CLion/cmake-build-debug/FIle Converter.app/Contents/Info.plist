@@ -4,7 +4,7 @@
 <plist>
   <dict>
     <key>CFBundleExecutable</key>
-    <string>NewProject</string>
+    <string>FIle Converter</string>
     <key>CFBundleIconFile</key>
     <string/>
     <key>CFBundleIdentifier</key>
