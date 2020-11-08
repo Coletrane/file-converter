@@ -1,0 +1,22 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/coleinman/Programs/c++/FileConverter/Builds/CLion
+CMake Warning (dev) at CMakeLists.txt:1624:
+  Syntax Warning in cmake code at column 29
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:1710:
+  Syntax Warning in cmake code at column 29
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:1711:
+  Syntax Warning in cmake code at column 35
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/coleinman/Programs/c++/FileConverter/Builds/CLion/cmake-build-debug

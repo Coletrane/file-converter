@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../JuceLibraryCode/JuceHeader.h
+
+/Users/coleinman/Programs/c++/FileConverter/Source/Main.cpp
+JuceHeader.h
+-
+MainComponent.h
+/Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.h
+
+/Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.cpp
+MainComponent.h
+/Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.h
+
+/Users/coleinman/Programs/c++/FileConverter/Source/MainComponent.h
+JuceHeader.h
+-
+
