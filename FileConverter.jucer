@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="DDE8Rc" name="File Converter" projectType="guiapp" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              headerPath="../../lib">
   <MAINGROUP id="cPYnae" name="File Converter">
     <GROUP id="{25CB8905-AF5C-9240-25AC-6B9D02261FD1}" name="Source">
       <FILE id="nOniP4" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
@@ -1357,7 +1358,7 @@
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="$(PROJECT_DIR)/lib/fitsdk">
+    <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" targetName="FIle Converter"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="FIle Converter"/>

@@ -1,9 +1,12 @@
 #pragma once
 
-#include <JuceHeader.h>
 #include <string>
 #include <sstream>
 #include <vector>
+
+#include <JuceHeader.h>
+
+#include "FileReader.h"
 
 class MainComponent : public juce::Component {
 public:
@@ -25,6 +28,8 @@ private:
     juce::TextButton openButton;
 
     juce::FileChooser fileChooser;
+
+    FileReader fileReader;
 
     void openButtonClicked();
 };

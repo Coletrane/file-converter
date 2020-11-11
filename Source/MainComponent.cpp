@@ -41,7 +41,17 @@ void MainComponent::resized() {
 
 void MainComponent::openButtonClicked() {
     if (fileChooser.browseForFileToOpen()) {
-        auto file = fileChooser.getResult();
-        // TODO: read the file data here
+        // writing types instead of using auto just to get the hang of things
+        // using list initialization to prevent type conversion weirdness
+        // https://stackoverflow.com/questions/18222926/why-is-list-initialization-using-curly-braces-better-than-the-alternatives
+        juce::File file { fileChooser.getResult() };
+        if (!file.existsAsFile()) {
+            return;
+        }
+
+        fileReader.readFileUsingFileNameAndIfstream(file);
+        // TODO: get this working
+        fileReader.readFileUsingJuceStream(file);
     }
 }
+
