@@ -1,10 +1,10 @@
 #include "FitFileListener.h"
 
-FitFileListener::~FitFileListener() {
+FitFileListener::FitFileListener(double &progress): progress(progress) { }
 
-}
+FitFileListener::~FitFileListener() = default;
 
-static void PrintValues(const fit::FieldBase &field) {
+void FitFileListener::printValues(const fit::FieldBase &field) {
     for (FIT_UINT8 j = 0; j < (FIT_UINT8) field.GetNumValues(); j++) {
         std::wcout << L"       Val" << j << L": ";
         switch (field.GetType()) {
@@ -48,13 +48,13 @@ void FitFileListener::OnMesg(fit::Mesg &mesg) {
         fit::Field *field = mesg.GetFieldByIndex(i);
         std::wcout << L"   Field" << i << " (" << field->GetName().c_str()
                    << ") has " << field->GetNumValues() << L" value(s)\n";
-        PrintValues(*field);
+        printValues(*field);
     }
 
     for (auto devField : mesg.GetDeveloperFields()) {
         std::wcout << L"   Developer Field(" << devField.GetName().c_str()
                    << ") has " << devField.GetNumValues() << L" value(s)\n";
-        PrintValues(devField);
+        printValues(devField);
     }
 }
 
@@ -208,7 +208,9 @@ void FitFileListener::OnMesg(fit::RecordMesg &record) {
 }
 
 void FitFileListener::OnDeveloperFieldDescription(const fit::DeveloperFieldDescription &desc) {
+    progress += 10;
     printf("New Developer Field Description\n");
     printf("   App Version: %d\n", desc.GetApplicationVersion());
     printf("   Field Number: %d\n", desc.GetFieldDefinitionNumber());
 }
+

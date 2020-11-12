@@ -15,9 +15,11 @@
 
 class FileReader {
 public:
+    explicit FileReader(const FitFileListener& listener);
+
     void readFileUsingJuceStream(juce::File file);
 
-    void readFileUsingFileNameAndIfstream(juce::File file);
+    FIT_BOOL readFileUsingFileNameAndIfstream(juce::File file);
 
 private:
     fit::MesgBroadcaster mesgBroadcaster;

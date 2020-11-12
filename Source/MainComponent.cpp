@@ -14,10 +14,14 @@ std::string MainComponent::getFileTypeStr() {
 }
 
 MainComponent::MainComponent() :
-        fileChooser("Choose a File", {}, getFileTypeStr(), true, true, this) {
+        progress(0),
+        progressBar(progress),
+        fileChooser("Choose a File", {}, getFileTypeStr(), true, true, this),
+        listener(progress),
+        fileReader(listener) {
     setOpaque(true);
 
-    addAndMakeVisible(&openButton);
+    addAndMakeVisible(openButton);
     std::stringstream ss;
     ss << "Open a " << getFileTypeStr() << " file.";
     openButton.setButtonText(ss.str());
@@ -27,8 +31,7 @@ MainComponent::MainComponent() :
     setSize(600, 400);
 }
 
-MainComponent::~MainComponent() {
-}
+MainComponent::~MainComponent() = default;
 
 void MainComponent::paint(juce::Graphics &g) {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
@@ -36,7 +39,7 @@ void MainComponent::paint(juce::Graphics &g) {
 }
 
 void MainComponent::resized() {
-    openButton.setBounds(10, 10, getWidth() - 20, 30);
+    openButton.setBounds(10, getHeight() - 40, getWidth() - 20, 30);
 }
 
 void MainComponent::openButtonClicked() {
@@ -49,9 +52,23 @@ void MainComponent::openButtonClicked() {
             return;
         }
 
-        fileReader.readFileUsingFileNameAndIfstream(file);
         // TODO: get this working
-        fileReader.readFileUsingJuceStream(file);
+//        fileReader.readFileUsingJuceStream(file);
+        FIT_BOOL successfulRead = fileReader.readFileUsingFileNameAndIfstream(file);
+
+        if (successfulRead) {
+           renderProgressBar();
+        }
     }
 }
+
+void MainComponent::renderProgressBar() {
+    progressBar.setPercentageDisplay(true);
+    addAndMakeVisible(progressBar);
+    const int progressBarX = static_cast<int>(std::round(getHeight() / 2)) + 20;
+    progressBar.setBounds(10, progressBarX, getWidth() - 20, 30);
+}
+
+
+
 

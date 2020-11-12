@@ -1,6 +1,10 @@
 #include <fstream>
 #include "FileReader.h"
 
+
+FileReader::FileReader(const FitFileListener& listener):
+    listener(listener) { }
+
 void FileReader::readFileUsingJuceStream(juce::File file) {
     juce::FileInputStream inputStream {file};
     if (inputStream.failedToOpen()) {
@@ -35,7 +39,7 @@ void FileReader::readFileUsingJuceStream(juce::File file) {
 //        }
 }
 
-void FileReader::readFileUsingFileNameAndIfstream(juce::File file) {
+FIT_BOOL FileReader::readFileUsingFileNameAndIfstream(juce::File file) {
     std::string filePath { file.getFullPathName().toStdString() };
     std::fstream fileStream;
 
@@ -45,8 +49,9 @@ void FileReader::readFileUsingFileNameAndIfstream(juce::File file) {
     }
 
     try {
-        decode.Read(&fileStream, &mesgBroadcaster, &mesgBroadcaster, &listener);
+        return decode.Read(&fileStream, &mesgBroadcaster, &mesgBroadcaster, &listener);
     } catch (const fit::RuntimeException& e) {
         std::cout << "Exception decoding the file: " << e.what();
+        return FIT_BOOL_FALSE;
     }
 }
