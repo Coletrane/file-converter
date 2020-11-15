@@ -7,6 +7,7 @@
 #include <JuceHeader.h>
 
 #include "FileReader.h"
+#include "CsvWriter.h"
 
 class MainComponent : public juce::Component {
 public:
@@ -26,8 +27,6 @@ private:
     juce::ProgressBar progressBar;
     juce::TextButton openButton;
     juce::FileChooser fileChooser;
-    FitFileListener listener;
-    FileReader fileReader;
 
     void openButtonClicked();
     void renderProgressBar();

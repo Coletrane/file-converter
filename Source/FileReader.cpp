@@ -48,6 +48,13 @@ FIT_BOOL FileReader::readFileUsingFileNameAndIfstream(juce::File file) {
         std::cout << "Error opening file " << filePath << "\n";
     }
 
+    mesgBroadcaster.AddListener((fit::FileIdMesgListener &)listener);
+    mesgBroadcaster.AddListener((fit::UserProfileMesgListener &)listener);
+    mesgBroadcaster.AddListener((fit::MonitoringMesgListener &)listener);
+    mesgBroadcaster.AddListener((fit::DeviceInfoMesgListener &)listener);
+    mesgBroadcaster.AddListener((fit::RecordMesgListener&)listener);
+    mesgBroadcaster.AddListener((fit::MesgListener &)listener);
+
     try {
         return decode.Read(&fileStream, &mesgBroadcaster, &mesgBroadcaster, &listener);
     } catch (const fit::RuntimeException& e) {

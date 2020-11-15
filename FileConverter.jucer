@@ -2,14 +2,8 @@
 
 <JUCERPROJECT id="DDE8Rc" name="File Converter" projectType="guiapp" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
-              headerPath="../../lib">
+              headerPath="../../lib&#10;">
   <MAINGROUP id="cPYnae" name="File Converter">
-    <GROUP id="{25CB8905-AF5C-9240-25AC-6B9D02261FD1}" name="Source">
-      <FILE id="nOniP4" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
-      <FILE id="e4LYLd" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
-      <FILE id="nWftYK" name="MainComponent.cpp" compile="1" resource="0"
-            file="Source/MainComponent.cpp"/>
-    </GROUP>
     <GROUP id="{275C3433-1C41-9B93-C936-9FFE012EE302}" name="fitsdk">
       <GROUP id="{06E6BC68-B07E-90DA-A991-A49CC77EC70E}" name="MacStaticLib">
         <GROUP id="{7D04E426-8BAC-6E68-3056-C9EF4C8377F2}" name="build">
@@ -1354,6 +1348,22 @@
             file="lib/fitsdk/FitMesgDefinition.h"/>
       <FILE id="tssBee" name="FitMesgDefinition.mm" compile="1" resource="0"
             file="lib/fitsdk/FitMesgDefinition.mm"/>
+    </GROUP>
+    <FILE id="SlhBfU" name="rapidcsv.h" compile="0" resource="0" file="../../gitlab/code/c++/rapidcsv/src/rapidcsv.h"/>
+    <GROUP id="{BCF3EE34-A614-97CD-1E91-B01ED2CDF04E}" name="Source">
+      <FILE id="HmWcFI" name="CsvWriter.cpp" compile="1" resource="0" file="Source/CsvWriter.cpp"/>
+      <FILE id="XlYkb6" name="CsvWriter.h" compile="0" resource="0" file="Source/CsvWriter.h"/>
+      <FILE id="HcjY4W" name="FileReader.cpp" compile="1" resource="0" file="Source/FileReader.cpp"/>
+      <FILE id="frVt8B" name="FileReader.h" compile="0" resource="0" file="Source/FileReader.h"/>
+      <FILE id="n1Qk7p" name="FitFileListener.cpp" compile="1" resource="0"
+            file="Source/FitFileListener.cpp"/>
+      <FILE id="km5XSX" name="FitFileListener.h" compile="0" resource="0"
+            file="Source/FitFileListener.h"/>
+      <FILE id="bmauqk" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="tXvvv8" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="nzmrmZ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="liSN1Z" name="utils.h" compile="0" resource="0" file="Source/utils.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>

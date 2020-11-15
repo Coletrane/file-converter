@@ -16,9 +16,7 @@ std::string MainComponent::getFileTypeStr() {
 MainComponent::MainComponent() :
         progress(0),
         progressBar(progress),
-        fileChooser("Choose a File", {}, getFileTypeStr(), true, true, this),
-        listener(progress),
-        fileReader(listener) {
+        fileChooser("Choose a File", {}, getFileTypeStr(), true, true, this) {
     setOpaque(true);
 
     addAndMakeVisible(openButton);
@@ -54,6 +52,12 @@ void MainComponent::openButtonClicked() {
 
         // TODO: get this working
 //        fileReader.readFileUsingJuceStream(file);
+
+        std::stringstream filePathStream;
+        filePathStream << file.getFullPathName() << file.getFileNameWithoutExtension() << ".csv";
+        CsvWriter csvWriter(filePathStream.str());
+        FitFileListener listener(progress, csvWriter);
+        FileReader fileReader(listener);
         FIT_BOOL successfulRead = fileReader.readFileUsingFileNameAndIfstream(file);
 
         if (successfulRead) {

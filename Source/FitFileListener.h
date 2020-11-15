@@ -14,6 +14,8 @@
 #include <fitsdk/fit_developer_field_description_listener.hpp>
 #include <fitsdk/fit_record_mesg_listener.hpp>
 
+#include "CsvWriter.h"
+
 class FitFileListener
         : public fit::FileIdMesgListener,
           public fit::UserProfileMesgListener,
@@ -25,9 +27,7 @@ class FitFileListener
 public:
     static void printValues(const fit::FieldBase &field);
 
-    double &progress;
-
-    explicit FitFileListener(double &progress);
+    explicit FitFileListener(double &progress, CsvWriter &csvWriter);
     ~FitFileListener() override;
 
     void OnDeveloperFieldDescription(const fit::DeveloperFieldDescription &desc) override;
@@ -37,6 +37,11 @@ public:
     void OnMesg(fit::MonitoringMesg &mesg) override;
     void OnMesg(fit::RecordMesg &mesg) override;
     void OnMesg(fit::UserProfileMesg &mesg) override;
+
+private:
+    double &progress;
+    // TODO: make this a generic "FileWriter"
+    CsvWriter &csvWriter;
 };
 
 

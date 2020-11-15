@@ -1,6 +1,8 @@
 #include "FitFileListener.h"
 
-FitFileListener::FitFileListener(double &progress): progress(progress) { }
+FitFileListener::FitFileListener(double &progress, CsvWriter &csvWriter):
+    progress(progress),
+    csvWriter(csvWriter) { }
 
 FitFileListener::~FitFileListener() = default;
 
@@ -213,4 +215,5 @@ void FitFileListener::OnDeveloperFieldDescription(const fit::DeveloperFieldDescr
     printf("   App Version: %d\n", desc.GetApplicationVersion());
     printf("   Field Number: %d\n", desc.GetFieldDefinitionNumber());
 }
+
 
